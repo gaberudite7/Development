@@ -5,6 +5,7 @@ Trader_Workstation/Files**
 Trader_Workstation/Udemy/Part3**
 Trader_Workstation/Udemy/Part4/FXCM**
 
+
 # Keep a placeholder file
 !Oanda/Data/.gitkeep
 Trader_Workstation/Udemy/Part5/DNN_data.csv
@@ -18,3 +19,5 @@ Trader_Workstation/yahoo_finance_data/CMCSA.csv
 boll_strategy.csv
 con_strategy.csv
 Trader_Workstation/Scripts/SP500.html
+
+Oanda/venv/Scripts/activate
