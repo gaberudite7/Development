@@ -1,0 +1,20 @@
+# Ignore everything in folder
+Oanda/Data/**
+Trader_Workstation/tws**
+Trader_Workstation/Files**
+Trader_Workstation/Udemy/Part3**
+Trader_Workstation/Udemy/Part4/FXCM**
+
+# Keep a placeholder file
+!Oanda/Data/.gitkeep
+Trader_Workstation/Udemy/Part5/DNN_data.csv
+Trader_Workstation/Udemy/Part5/bid_ask.csv
+Trader_Workstation/Udemy/Part4/Oanda/five_minute.csv
+Trader_Workstation/Udemy/Part4/IBKR/five_minute.csv
+Trader_Workstation/Udemy/Part5/FXCM.cfg
+Trader_Workstation/Udemy/Part5/oanda.cfg
+Trader_Workstation/Udemy/Part5/twenty_minutes.csv
+Trader_Workstation/yahoo_finance_data/CMCSA.csv
+boll_strategy.csv
+con_strategy.csv
+Trader_Workstation/Scripts/SP500.html
