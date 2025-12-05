@@ -1,0 +1,18 @@
+2025-12-04 21:55:24 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/error.log
+2025-12-04 21:55:25 Bot started
+2025-12-04 22:01:14 place_trade exception for EUR_GBP: 'NoneType' object has no attribute 'instruments_dict'
+2025-12-04 22:01:14 Traceback (most recent call last):
+  File "c:\Development\Oanda\venv\Scripts\bot\bot.py", line 63, in process_candles
+    place_trade(trade_decision, self.api, self.log_message, self.log_to_error)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Development\Oanda\venv\Scripts\bot\trade_manager.py", line 24, in place_trade
+    trade_id = api.place_trade(
+        trade_decision.pair,
+    ...<3 lines>...
+        trade_decision.tp
+    )
+  File "c:\Development\Oanda\venv\Scripts\api\oanda_api.py", line 188, in place_trade
+    instrument = self.instrument_collection.instruments_dict[pair_name]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'instruments_dict'
+

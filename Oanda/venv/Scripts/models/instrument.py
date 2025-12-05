@@ -1,6 +1,6 @@
 class Instrument:
 
-    def __init__(self, name, ins_type, displayName, pipLocation, tradeUnitsPrecision, marginRate):
+    def __init__(self, name, ins_type, displayName, pipLocation, tradeUnitsPrecision, marginRate, displayPrecision):
         
         self.name = name
         self.ins_type = ins_type
@@ -8,6 +8,7 @@ class Instrument:
         self.pipLocation = pow(10, pipLocation) # -4 = .001
         self.tradeUnitsPrecision = tradeUnitsPrecision
         self.marginRate = float(marginRate)
+        self.displayPrecision = displayPrecision
     
     def __repr__(self):
         return str(vars(self))
@@ -20,5 +21,6 @@ class Instrument:
             ob['displayName'],
             ob['pipLocation'],
             ob['tradeUnitsPrecision'],
-            ob['marginRate']          
+            ob['marginRate'], 
+            ob['displayPrecision']          
         )

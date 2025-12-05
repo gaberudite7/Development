@@ -1,17 +1,25 @@
+# ...existing code...
+import sys;
+import os
+
+# Ensure project root (two levels up from venv\Scripts) is on sys.path so
+# imports like `api.oanda_api` and `infrastructure.*` resolve when running
+# this script from the venv\Scripts folder.
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+
 from api.oanda_api import OandaApi
-from infrastructure.instrument_collection import instrumentCollection
+from infrastructure.instrument_collection import InstrumentCollection
+from simulation.ma_cross import run_ma_sim
+from dateutil import parser
+from infrastructure.collect_data import run_collection
 
 
 if __name__ == "__main__":
-    api = OandaApi()
-
-    #data = api.get_account_instruments()
-    #[print(x['name']) for x in data]
-
-    # data = api.get_account_summary()
-    # print(data)
-
-    instrumentCollection.CreateFile(api.get_account_instruments(), r"C:\Development\Oanda\Data")
-
-    instrumentCollection.LoadInstruments(r"C:\Development\Oanda\Data")
-    instrumentCollection.PrintInstruments()
+    # api = OandaApi()
+    # instrumentCollection = InstrumentCollection()
+    # instrumentCollection.LoadInstruments(r"C:\Development\Oanda\Data")
+    # run_collection(instrumentCollection, api)
+    run_ma_sim()

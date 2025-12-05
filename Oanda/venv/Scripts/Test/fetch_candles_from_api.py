@@ -37,8 +37,8 @@ def fetch_instruments(url):
 def fetch_candles(pair_name, count=10, granularity="H1"): # pair EURUSD, count number of candles, granularity is hours 1
     url = f"{OANDA_URL}/instruments/{pair_name}/candles"
     params = dict(
-        count = 10, 
-        granularity = "H1", 
+        count = count, 
+        granularity = granularity, 
         price = "MBA"
         )
 

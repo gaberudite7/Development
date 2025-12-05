@@ -13,7 +13,7 @@ session.headers.update({
 })
 
 params = dict(
-    count = 10, 
+    count = 4000, 
     granularity = "H1", 
     price = "MBA"
 )
@@ -23,7 +23,7 @@ url = f"{OANDA_URL}/accounts/{ACCOUNT_ID}/instruments"
 
 # response = session.get(url, params=params, data = None, headers =None)
 
-response = session.get(url, params=None, data = None, headers =None)
+response = session.get(url, params=params, data = None, headers =None)
 
 data = response.json()
 #print(data)
