@@ -14,7 +14,7 @@ ADDROWS = 20
 
 def apply_signal(row, trade_settings: TradeSettings):
 
-    if row.SPREAD <= trade_settings.maxspread:
+    if row.SPREAD <= trade_settings.maxspread and row.GAIN >= trade_settings.mingain:
         if row.mid_c > row.BB_UPPER and row.mid_o < row.BB_UPPER:
             return defs.SELL
         elif row.mid_c < row.BB_LOWER and row.mid_o > row.BB_LOWER:
@@ -37,6 +37,8 @@ def apply_TP(row):
         return row.mid_c - row.GAIN
     return 0.0
 
+# We use a bollingerBands strategy, we could rename to process BB...create other functions for other strategies
+# they just need to pass the paramaters log_cols
 def process_candles(df: pd.DataFrame, pair, trade_settings: TradeSettings, log_message):
 
     df.reset_index(drop=True, inplace=True)
@@ -45,14 +47,17 @@ def process_candles(df: pd.DataFrame, pair, trade_settings: TradeSettings, log_m
 
     # make indicator
     df = BollingerBands(df, trade_settings.n_ma, trade_settings.n_std)
-    df['SIGNAL'] = df.apply(apply_signal, axis=1, trade_settings=trade_settings)
     df['GAIN'] = abs(df.mid_c - df.BB_MA)
+    df['SIGNAL'] = df.apply(apply_signal, axis=1, trade_settings=trade_settings)
+
 
     # Take profit/Stop loss
     df['TP'] = df.apply(apply_TP, axis=1)
     df['SL'] = df.apply(apply_SL, axis=1, trade_settings=trade_settings)    
 
-    log_cols = ['PAIR', 'time', 'mid_c', 'mid_o', 'SL', 'TP', 'SPREAD', 'GAIN', 'SIGNAL']
+    df['LOSS'] = abs(df.mid_c - df.SL)
+
+    log_cols = ['PAIR', 'time', 'mid_c', 'mid_o', 'SL', 'TP', 'SPREAD', 'GAIN', 'LOSS', 'SIGNAL']
     log_message(f"process_candles:\n{df[log_cols].tail()}", pair)
 
     return df[log_cols].iloc[-1]

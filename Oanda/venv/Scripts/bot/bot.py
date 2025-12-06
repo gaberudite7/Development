@@ -29,8 +29,8 @@ class Bot:
     def load_settings(self):
         with open(r"C:\Development\Oanda\venv\Scripts\bot\settings.json", "r") as f:
             data = json.loads(f.read())
-            self.trade_settings = { k: TradeSettings(v, k) for k, v in data.items()}
-
+            self.trade_settings = { k: TradeSettings(v, k) for k, v in data['pairs'].items()}
+            self.trade_risk = data['trade_risk']
 
     def setup_logs(self):
         self.logs = {}
@@ -55,12 +55,13 @@ class Bot:
             self.log_message(f"process_candles triggered: {triggered}", Bot.MAIN_LOG)
             for p in triggered:
                 last_time = self.candle_manager.timings[p].last_time
-                trade_decision = get_trade_decision(last_time, p, Bot.GRANULARITY, self.api, self.trade_settings[p], self.log_message)
+                trade_decision = get_trade_decision(last_time, p, Bot.GRANULARITY, self.api, 
+                                                    self.trade_settings[p], self.log_message)
                 if trade_decision is not None and trade_decision.signal != defs.NONE:
                     self.log_message(f"Place Trade: {trade_decision}", p)
                     self.log_to_main(f"Place Trade: {trade_decision}")
                     try:
-                        place_trade(trade_decision, self.api, self.log_message, self.log_to_error)
+                        place_trade(trade_decision, self.api, self.log_message, self.log_to_error, self.trade_risk)
                     except Exception as e:
                         self.log_to_error(f"place_trade exception for {p}: {e}")
                         self.log_to_error(traceback.format_exc())

@@ -5,19 +5,16 @@ from dateutil import parser
 from datetime import datetime as dt
 import constants.defs as defs
 from models.open_trade import OpenTrade
-#from infrastructure.instrument_collection import instrumentCollection as ic
+from infrastructure.instrument_collection import instrumentCollection as ic
 import json
 from models.api_price import ApiPrice
 
 class OandaApi:
 
-    def __init__(self, instrument_collection=None):
+    def __init__(self):
         self.session = requests.Session()
-        self.instrument_collection = instrument_collection
-        self.session.headers.update({
-            "Authorization": f"Bearer {defs.API_KEY}",
-            "Content-Type": "application/json"    
-        })
+        # self.instrument_collection = instrument_collection
+        self.session.headers.update(defs.SECURE_HEADER)
     
     def make_requests(self, url, verb='get', code=200, params=None, data=None, headers=None):
         full_url = f"{defs.OANDA_URL}/{url}"
@@ -185,7 +182,7 @@ class OandaApi:
 
         url = f"accounts/{defs.ACCOUNT_ID}/orders"
         
-        instrument = self.instrument_collection.instruments_dict[pair_name]
+        instrument = ic.instruments_dict[pair_name]
         units = round(units, instrument.tradeUnitsPrecision)
 
         if direction == defs.SELL:
@@ -247,12 +244,13 @@ class OandaApi:
         url = f"accounts/{defs.ACCOUNT_ID}/pricing"
 
         params = dict(
-            instruments= ','.join(instruments_list)
+            instruments= ','.join(instruments_list),
+            includeHomeConversions=True
         )
 
         ok, response = self.make_requests(url, params=params)
         
-        if ok == True and 'prices' in response:
-            return [ApiPrice(x) for x in response['prices']]
+        if ok == True and 'prices' in response and 'homeConversions' in response:
+            return [ApiPrice(x, response['homeConversions']) for x in response['prices']]
         
         return None

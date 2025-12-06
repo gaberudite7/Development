@@ -11,15 +11,17 @@ if project_root not in sys.path:
 
 
 from api.oanda_api import OandaApi
-from infrastructure.instrument_collection import InstrumentCollection
+from infrastructure.instrument_collection import instrumentCollection
 from simulation.ma_cross import run_ma_sim
 from dateutil import parser
 from infrastructure.collect_data import run_collection
+from api.stream_prices import stream_prices
 
 
 if __name__ == "__main__":
-    # api = OandaApi()
+    api = OandaApi()
     # instrumentCollection = InstrumentCollection()
-    # instrumentCollection.LoadInstruments(r"C:\Development\Oanda\Data")
+    instrumentCollection.LoadInstruments(r"C:\Development\Oanda\Data")
     # run_collection(instrumentCollection, api)
-    run_ma_sim()
+    #run_ma_sim()
+    stream_prices(['GBP_JPY', 'AUD_NZD'])
