@@ -21,13 +21,14 @@ def apply_signal(row, trade_settings: TradeSettings):
             return defs.BUY
     return defs.NONE
 
+
 # stop loss
 def apply_SL(row, trade_settings: TradeSettings):
     if row.SIGNAL == defs.BUY:
         return row.mid_c - (row.GAIN / trade_settings.riskreward)
     elif row.SIGNAL == defs.SELL:
         return row.mid_c + (row.GAIN / trade_settings.riskreward)
-    return 0.0
+    return None
 
 # take profit
 def apply_TP(row):
@@ -35,7 +36,16 @@ def apply_TP(row):
         return row.mid_c + row.GAIN
     elif row.SIGNAL == defs.SELL:
         return row.mid_c - row.GAIN
+    return None
+
+# change made here for Bollinger Bands: calculate gain base on distance from price to lower/upper band NOT the n_ma
+def calc_gain(row):
+    if row.SIGNAL == defs.SELL:
+        return abs(row.mid_c - row.BB_UPPER)
+    elif row.SIGNAL == defs.BUY:
+        return abs(row.mid_c - row.BB_LOWER)
     return 0.0
+
 
 # We use a bollingerBands strategy, we could rename to process BB...create other functions for other strategies
 # they just need to pass the paramaters log_cols
@@ -47,15 +57,20 @@ def process_candles(df: pd.DataFrame, pair, trade_settings: TradeSettings, log_m
 
     # make indicator
     df = BollingerBands(df, trade_settings.n_ma, trade_settings.n_std)
-    df['GAIN'] = abs(df.mid_c - df.BB_MA)
-    df['SIGNAL'] = df.apply(apply_signal, axis=1, trade_settings=trade_settings)
 
+    # raw gain (independent of SIGNAL)
+    df['GAIN'] = abs(df.mid_c - df.BB_MA)
+
+
+    df['SIGNAL'] = df.apply(apply_signal, axis=1, trade_settings=trade_settings)
+    df['GAIN'] = df.apply(calc_gain, axis=1)
 
     # Take profit/Stop loss
     df['TP'] = df.apply(apply_TP, axis=1)
     df['SL'] = df.apply(apply_SL, axis=1, trade_settings=trade_settings)    
 
     df['LOSS'] = abs(df.mid_c - df.SL)
+    df.loc[df.SL.isna(), 'LOSS'] = 0.0
 
     log_cols = ['PAIR', 'time', 'mid_c', 'mid_o', 'SL', 'TP', 'SPREAD', 'GAIN', 'LOSS', 'SIGNAL']
     log_message(f"process_candles:\n{df[log_cols].tail()}", pair)
@@ -71,9 +86,8 @@ def fetch_candles(pair, row_count, candle_time, granularity, api: OandaApi, log_
         log_message("tech_manager fetch_candles failed to get candles", pair)
         return None
     
-    if df.iloc[-1].time != candle_time:
-        log_message(f"tech_manager fetch_candles {df.iloc[-1].time} not correct", pair)
-        return None
+    if abs((df.iloc[-1].time - candle_time).total_seconds()) > 1:
+        log_message("Timestamp mismatch but within tolerance, continuing", pair)
 
     return df       
 

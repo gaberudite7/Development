@@ -1,36 +1,45 @@
 from api.oanda_api import OandaApi
 import constants.defs as defs
 from infrastructure.instrument_collection import instrumentCollection as ic
+import math
 
-def get_trade_units(api: OandaApi, pair, signal, loss, trade_risk, log_message):
+# sensible minimum stop distances
+MIN_LOSS_NON_JPY = 0.0005   # ~5 pips
+MIN_LOSS_JPY     = 0.05     # ~5 pips
+
+MAX_UNITS = 1_000       # safety cap (adjust if needed)
+
+
+def get_trade_units(api, pair, signal, loss, trade_risk, log_message):
+
+    if loss is None or loss <= 0:
+        log_message("Invalid loss — cannot size trade", pair)
+        return None
+
+    pipLocation = ic.instruments_dict[pair].pipLocation
+
+    min_loss = 0.05 if "JPY" in pair else 0.0005
+    # prevent trades with very small/0 losses
+    if loss < min_loss:
+        log_message(f"Loss {loss} too small → clamped to {min_loss}", pair)
+        loss = min_loss
 
     prices = api.get_prices([pair])
+    if not prices:
+        return None
 
-    if prices is None or len(prices) == 0:
-        log_message("get_trade_units() Prices is none", pair)
-        return False
-    
-    price = None
-    for p in prices:
-        if p.instrument == pair:
-            price = p
-            break
-    if price == None:
-        log_message("get_trade_units() price is NONE????", pair)
-        return False
-    
-    log_message(f"get_trade_units() price {price}", pair)
+    price = next(p for p in prices if p.instrument == pair)
 
-    conv = price.buy_conv
-    if signal == defs.SELL:
-        conv = price.sell_conv
+    conv = price.sell_conv if signal == defs.SELL else price.buy_conv
 
-    # calculate units we want to place for given risk
-    pipLocation = ic.instruments_dict[pair].pipLocation
     num_pips = loss / pipLocation
-    per_pip_loss = trade_risk / num_pips
-    units = per_pip_loss / (conv * pipLocation)
+    risk_per_pip = trade_risk / num_pips
 
-    log_message(f"{pipLocation} {num_pips} {per_pip_loss} {units:.1f}", pair)
+    units = risk_per_pip / (conv * pipLocation)
+
+    log_message(
+        f"loss={loss:.1f} pips={num_pips:.1f} units={units:.1f}",
+        pair
+    )
 
     return units

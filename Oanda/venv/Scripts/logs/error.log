@@ -1,2 +1,3 @@
-2025-12-06 08:39:16 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/error.log
-2025-12-06 08:39:18 Bot started
+2025-12-23 08:19:33 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/error.log
+2025-12-23 08:19:36 Bot started
+2025-12-23 14:05:06 ERROR placing TradeDecision(): GBP_USD, dir: -1, gain: 0.0000, stop_loss: 1.3492617343076867, take_profit: 1.3492567048153952

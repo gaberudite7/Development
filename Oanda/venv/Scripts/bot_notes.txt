@@ -1,0 +1,174 @@
+Your bot will place a trade when ALL of the following conditions are true:
+
+🟩 Condition 1 — A candle closes for the pair
+
+Your CandleManager detects a new closed candle:
+
+triggered = self.candle_manager.update_timings()
+
+
+So the bot only checks for trades on candle close.
+
+🟩 Condition 2 — Market spread is acceptable
+
+Inside your technicals, it likely checks:
+
+current_spread <= maxspread
+
+
+If spread is too high: NO TRADE
+
+🟩 Condition 3 — Signal produced based on n_ma and n_std
+
+Your bot computes:
+
+✔ MA Signal
+
+Using n_ma:
+
+MA trending up → BUY signal
+
+MA trending down → SELL signal
+
+✔ Volatility Breakout Signal
+
+Using n_std:
+
+price > (MA + n_std * std) → BUY
+
+price < (MA - n_std * std) → SELL
+
+This means:
+
+A breakout beyond your volatility bands (or whatever rule you coded) produces the BUY or SELL signal.
+
+The bot creates a TradeDecision only if:
+
+signal != defs.NONE
+
+🟩 Condition 4 — Gain must be >= mingain
+
+Your calculated TP/SL "gain" value must be bigger than mingain.
+
+If:
+
+gain < mingain
+
+
+→ NO TRADE
+
+This is EXACTLY why your old parameters gave you errors.
+The gain was microscopic.
+
+🟩 Condition 5 — Oanda accepts the distances
+
+Your bot attempts to place:
+
+SL price
+TP price
+
+
+Oanda must accept:
+
+minimum distance
+
+valid price formatting
+
+margin availability
+
+If Oanda rejects the order → your place_trade() receives None.
+
+⭐ PART 3 — Full Example of a Trade Triggering
+
+Let’s walk through an example using GBP/USD with aggressive settings:
+
+n_ma = 1
+n_std = 1.0
+maxspread = 0.0020
+mingain = 0.0006
+riskreward = 0.8
+
+⏳ Candle closes…
+
+Your CandleManager triggers GBP/USD.
+
+1️⃣ Spread Check Passed
+
+Current spread = 0.0009
+maxspread = 0.0020
+→ OK
+
+2️⃣ Technical Signal Fires
+
+On the last candle:
+
+price closed above MA(1)
+
+price jumped outside the upper volatility band (MA + 1.0 * std)
+
+This generates:
+
+signal = BUY
+gain = 0.0007   (bigger than mingain=0.0006)
+
+3️⃣ Bot builds TradeDecision()
+
+The function sets:
+
+sl = entry_price - 0.0007
+tp = entry_price + (0.0007 * riskreward)
+
+
+→ With riskreward = 0.8:
+
+tp_distance = 0.00056
+
+
+Both distances are above Oanda minimum.
+
+4️⃣ trade_is_open → none open → valid
+5️⃣ Position sizing
+
+Bot calls:
+
+get_trade_units(...)
+
+
+and computes units based on trade_risk.
+
+6️⃣ Bot calls Oanda
+trade_id = api.place_trade(...)
+
+
+Oanda accepts:
+
+spread okay
+
+SL/TP far enough
+
+order formatted correctly
+
+Returns a real trade ID.
+
+7️⃣ Bot logs:
+Placed trade_id: 193124 -> GBP_USD BUY
+
+⭐ Summary: When a trade happens
+
+A trade occurs only when ALL of these are true:
+
+A new candle closes
+
+Spread ≤ maxspread
+
+Trend/volatility logic gives a BUY/SELL
+
+Gain ≥ mingain
+
+SL/TP distances are valid for Oanda
+
+Position sizing is valid
+
+The pair has no open trade already
+
+Then your bot places the trade.

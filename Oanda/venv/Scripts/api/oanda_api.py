@@ -15,6 +15,9 @@ class OandaApi:
         self.session = requests.Session()
         # self.instrument_collection = instrument_collection
         self.session.headers.update(defs.SECURE_HEADER)
+        # homeconversions fix
+        self.home_currency = "USD"  # or read from account info
+        self.homeConversions = {}   # cache conversion rates
     
     def make_requests(self, url, verb='get', code=200, params=None, data=None, headers=None):
         full_url = f"{defs.OANDA_URL}/{url}"
@@ -254,3 +257,20 @@ class OandaApi:
             return [ApiPrice(x, response['homeConversions']) for x in response['prices']]
         
         return None
+    
+    def load_home_conversions(self, instrumentCollection):
+        """
+        Build homeConversions dict from OANDA API for all instruments in the collection.
+        """
+        # Get all instrument names
+        instrument_names = list(instrumentCollection.instruments_dict.keys())
+
+        # Call your get_prices function
+        prices = self.get_prices(instrument_names)
+
+        self.homeConversions = {}
+
+        for price_obj in prices:
+            # ApiPrice object already has homeConversions applied
+            self.homeConversions[price_obj.instrument] = price_obj.home_Conversions
+  

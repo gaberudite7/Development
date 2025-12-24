@@ -1,6 +1,7 @@
 from api.oanda_api import OandaApi
 from models.trade_decision import TradeDecision
-from trade_risk_calculator import get_trade_units
+from bot.trade_risk_calculator import get_trade_units
+import math
 
 # is the trade open?
 def trade_is_open(pair, api: OandaApi):
@@ -22,7 +23,14 @@ def place_trade(trade_decision: TradeDecision, api: OandaApi, log_message, log_e
         log_message(f"Failed to place trade {trade_decision}, already open: {ot}", trade_decision.pair)
         return None
 
+    # compute units
     trade_units = get_trade_units(api, trade_decision.pair, trade_decision.signal, trade_decision.loss, trade_risk, log_message)
+    log_message(f"Computed trade_units={trade_units} for {trade_decision.pair}", trade_decision.pair)
+ 
+    # fail fast if units are zero or NaN
+    if trade_units is None or not isinstance(trade_units, (int, float)) or math.isclose(trade_units, 0.0, abs_tol=0.0):
+        log_error(f"Refusing to place trade: computed units={trade_units}. Increase trade_risk or fix sizing.", trade_decision.pair)
+        return None
 
     trade_id = api.place_trade(
         trade_decision.pair, 

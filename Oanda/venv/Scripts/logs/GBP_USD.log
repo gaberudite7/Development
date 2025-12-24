@@ -1,75 +1,1046 @@
-2025-12-04 21:55:24 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/GBP_USD.log
-2025-12-04 21:55:24 {'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0014, 'riskreward': 1.3}
-2025-12-04 21:55:25 CandleManager() init last_candle: last_candle:25-12-05 02:55 is_ready:False
-2025-12-04 21:56:07 CandleManager() new candle: last_candle:25-12-05 02:56 is_ready:False
-2025-12-04 21:56:08 tech_manager: max_rows:32 candle_time: 2025-12-05 02:56:00+00:00 granularity M1
-2025-12-04 21:56:08 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  GBP_USD 2025-12-05 02:52:00+00:00  1.33344  1.33337  1.333527  1.333327  0.00017  0.000113      -1
-28  GBP_USD 2025-12-05 02:53:00+00:00  1.33336  1.33342  0.000000  0.000000  0.00019  0.000032       0
-29  GBP_USD 2025-12-05 02:54:00+00:00  1.33336  1.33337  0.000000  0.000000  0.00019  0.000028       0
-30  GBP_USD 2025-12-05 02:55:00+00:00  1.33334  1.33334  0.000000  0.000000  0.00018  0.000004       0
-31  GBP_USD 2025-12-05 02:56:00+00:00  1.33333  1.33333  0.000000  0.000000  0.00018  0.000011       0
-2025-12-04 21:57:11 CandleManager() new candle: last_candle:25-12-05 02:57 is_ready:False
-2025-12-04 21:57:11 tech_manager: max_rows:32 candle_time: 2025-12-05 02:57:00+00:00 granularity M1
-2025-12-04 21:57:11 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  GBP_USD 2025-12-05 02:53:00+00:00  1.33336  1.33342  0.0  0.0  0.00019  0.000032       0
-28  GBP_USD 2025-12-05 02:54:00+00:00  1.33336  1.33337  0.0  0.0  0.00019  0.000028       0
-29  GBP_USD 2025-12-05 02:55:00+00:00  1.33334  1.33334  0.0  0.0  0.00018  0.000004       0
-30  GBP_USD 2025-12-05 02:56:00+00:00  1.33331  1.33333  0.0  0.0  0.00018  0.000031       0
-31  GBP_USD 2025-12-05 02:57:00+00:00  1.33330  1.33330  0.0  0.0  0.00017  0.000042       0
-2025-12-04 21:58:04 CandleManager() new candle: last_candle:25-12-05 02:58 is_ready:False
-2025-12-04 21:58:04 tech_manager: max_rows:32 candle_time: 2025-12-05 02:58:00+00:00 granularity M1
-2025-12-04 21:58:04 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  GBP_USD 2025-12-05 02:54:00+00:00  1.33336  1.33337  0.000000  0.000000  0.00019  0.000028       0
-28  GBP_USD 2025-12-05 02:55:00+00:00  1.33334  1.33334  0.000000  0.000000  0.00018  0.000004       0
-29  GBP_USD 2025-12-05 02:56:00+00:00  1.33331  1.33333  0.000000  0.000000  0.00018  0.000031       0
-30  GBP_USD 2025-12-05 02:57:00+00:00  1.33324  1.33330  1.333164  1.333338  0.00020  0.000098       1
-31  GBP_USD 2025-12-05 02:58:00+00:00  1.33325  1.33324  0.000000  0.000000  0.00020  0.000082       0
-2025-12-04 21:59:07 CandleManager() new candle: last_candle:25-12-05 02:59 is_ready:False
-2025-12-04 21:59:07 tech_manager: max_rows:32 candle_time: 2025-12-05 02:59:00+00:00 granularity M1
-2025-12-04 21:59:07 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  GBP_USD 2025-12-05 02:55:00+00:00  1.33334  1.33334  0.000000  0.000000  0.00018  0.000004       0
-28  GBP_USD 2025-12-05 02:56:00+00:00  1.33331  1.33333  0.000000  0.000000  0.00018  0.000031       0
-29  GBP_USD 2025-12-05 02:57:00+00:00  1.33324  1.33330  1.333164  1.333338  0.00020  0.000098       1
-30  GBP_USD 2025-12-05 02:58:00+00:00  1.33323  1.33324  0.000000  0.000000  0.00022  0.000101       0
-31  GBP_USD 2025-12-05 02:59:00+00:00  1.33324  1.33324  0.000000  0.000000  0.00021  0.000084       0
-2025-12-04 22:00:10 CandleManager() new candle: last_candle:25-12-05 03:00 is_ready:False
-2025-12-04 22:00:10 tech_manager: max_rows:32 candle_time: 2025-12-05 03:00:00+00:00 granularity M1
-2025-12-04 22:00:10 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  GBP_USD 2025-12-05 02:56:00+00:00  1.33331  1.33333  0.000000  0.000000  0.00018  0.000031       0
-28  GBP_USD 2025-12-05 02:57:00+00:00  1.33324  1.33330  1.333164  1.333338  0.00020  0.000098       1
-29  GBP_USD 2025-12-05 02:58:00+00:00  1.33323  1.33324  0.000000  0.000000  0.00022  0.000101       0
-30  GBP_USD 2025-12-05 02:59:00+00:00  1.33324  1.33324  0.000000  0.000000  0.00019  0.000084       0
-31  GBP_USD 2025-12-05 03:00:00+00:00  1.33323  1.33324  0.000000  0.000000  0.00020  0.000087       0
-2025-12-04 22:01:14 CandleManager() new candle: last_candle:25-12-05 03:01 is_ready:False
-2025-12-04 22:01:14 tech_manager: max_rows:32 candle_time: 2025-12-05 03:01:00+00:00 granularity M1
-2025-12-04 22:01:14 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  GBP_USD 2025-12-05 02:57:00+00:00  1.33324  1.33330  1.333164  1.333338  0.00020  0.000098       1
-28  GBP_USD 2025-12-05 02:58:00+00:00  1.33323  1.33324  0.000000  0.000000  0.00022  0.000101       0
-29  GBP_USD 2025-12-05 02:59:00+00:00  1.33324  1.33324  0.000000  0.000000  0.00019  0.000084       0
-30  GBP_USD 2025-12-05 03:00:00+00:00  1.33316  1.33324  0.000000  0.000000  0.00018  0.000153       0
-31  GBP_USD 2025-12-05 03:01:00+00:00  1.33319  1.33318  0.000000  0.000000  0.00018  0.000111       0
-2025-12-04 22:02:06 CandleManager() new candle: last_candle:25-12-05 03:02 is_ready:False
-2025-12-04 22:02:06 tech_manager: max_rows:32 candle_time: 2025-12-05 03:02:00+00:00 granularity M1
-2025-12-04 22:02:06 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  GBP_USD 2025-12-05 02:58:00+00:00  1.33323  1.33324  0.0  0.0  0.00022  0.000101       0
-28  GBP_USD 2025-12-05 02:59:00+00:00  1.33324  1.33324  0.0  0.0  0.00019  0.000084       0
-29  GBP_USD 2025-12-05 03:00:00+00:00  1.33316  1.33324  0.0  0.0  0.00018  0.000153       0
-30  GBP_USD 2025-12-05 03:01:00+00:00  1.33308  1.33318  0.0  0.0  0.00017  0.000216       0
-31  GBP_USD 2025-12-05 03:02:00+00:00  1.33306  1.33308  0.0  0.0  0.00019  0.000213       0
-2025-12-04 22:03:10 CandleManager() new candle: last_candle:25-12-05 03:03 is_ready:False
-2025-12-04 22:03:11 tech_manager: max_rows:32 candle_time: 2025-12-05 03:03:00+00:00 granularity M1
-2025-12-04 22:03:11 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  GBP_USD 2025-12-05 02:59:00+00:00  1.33324  1.33324  0.0  0.0  0.00019  0.000084       0
-28  GBP_USD 2025-12-05 03:00:00+00:00  1.33316  1.33324  0.0  0.0  0.00018  0.000153       0
-29  GBP_USD 2025-12-05 03:01:00+00:00  1.33308  1.33318  0.0  0.0  0.00017  0.000216       0
-30  GBP_USD 2025-12-05 03:02:00+00:00  1.33314  1.33308  0.0  0.0  0.00020  0.000138       0
-31  GBP_USD 2025-12-05 03:03:00+00:00  1.33314  1.33312  0.0  0.0  0.00021  0.000119       0
+2025-12-23 08:19:33 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/GBP_USD.log
+2025-12-23 08:19:33 {'n_ma': 20, 'n_std': 2.0, 'maxspread': 0.0003, 'mingain': 0.0006, 'riskreward': 1.9}
+2025-12-23 08:19:36 CandleManager() init last_candle: last_candle:25-12-23 13:15 is_ready:False
+2025-12-23 08:20:07 CandleManager() new candle: last_candle:25-12-23 13:20 is_ready:False
+2025-12-23 08:20:08 tech_manager: max_rows:40 candle_time: 2025-12-23 13:20:00+00:00 granularity M5
+2025-12-23 08:20:08 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:00:00+00:00  1.35023  1.35024  None  None  0.00020   0.0  0.0       0
+36  GBP_USD 2025-12-23 13:05:00+00:00  1.35024  1.35026  None  None  0.00019   0.0  0.0       0
+37  GBP_USD 2025-12-23 13:10:00+00:00  1.35047  1.35023  None  None  0.00016   0.0  0.0       0
+38  GBP_USD 2025-12-23 13:15:00+00:00  1.35068  1.35048  None  None  0.00017   0.0  0.0       0
+39  GBP_USD 2025-12-23 13:20:00+00:00  1.35091  1.35068  None  None  0.00020   0.0  0.0       0
+2025-12-23 08:20:08 Skipping trade - invalid signal or loss
+2025-12-23 08:25:01 CandleManager() new candle: last_candle:25-12-23 13:25 is_ready:False
+2025-12-23 08:25:02 tech_manager: max_rows:40 candle_time: 2025-12-23 13:25:00+00:00 granularity M5
+2025-12-23 08:25:02 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:05:00+00:00  1.35024  1.35026  None  None  0.00019   0.0  0.0       0
+36  GBP_USD 2025-12-23 13:10:00+00:00  1.35047  1.35023  None  None  0.00016   0.0  0.0       0
+37  GBP_USD 2025-12-23 13:15:00+00:00  1.35068  1.35048  None  None  0.00017   0.0  0.0       0
+38  GBP_USD 2025-12-23 13:20:00+00:00  1.35094  1.35068  None  None  0.00017   0.0  0.0       0
+39  GBP_USD 2025-12-23 13:25:00+00:00  1.35094  1.35095  None  None  0.00018   0.0  0.0       0
+2025-12-23 08:25:02 Skipping trade - invalid signal or loss
+2025-12-23 08:30:05 CandleManager() new candle: last_candle:25-12-23 13:30 is_ready:False
+2025-12-23 08:30:05 tech_manager: max_rows:40 candle_time: 2025-12-23 13:30:00+00:00 granularity M5
+2025-12-23 08:30:05 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:10:00+00:00  1.35047  1.35023  None  None  0.00016   0.0  0.0       0
+36  GBP_USD 2025-12-23 13:15:00+00:00  1.35068  1.35048  None  None  0.00017   0.0  0.0       0
+37  GBP_USD 2025-12-23 13:20:00+00:00  1.35094  1.35068  None  None  0.00017   0.0  0.0       0
+38  GBP_USD 2025-12-23 13:25:00+00:00  1.35092  1.35095  None  None  0.00037   0.0  0.0       0
+39  GBP_USD 2025-12-23 13:30:00+00:00  1.35084  1.35088  None  None  0.00034   0.0  0.0       0
+2025-12-23 08:30:05 Skipping trade - invalid signal or loss
+2025-12-23 08:35:11 CandleManager() new candle: last_candle:25-12-23 13:35 is_ready:False
+2025-12-23 08:35:12 tech_manager: max_rows:40 candle_time: 2025-12-23 13:35:00+00:00 granularity M5
+2025-12-23 08:35:12 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:15:00+00:00  1.35068  1.35048  None  None  0.00017   0.0  0.0       0
+36  GBP_USD 2025-12-23 13:20:00+00:00  1.35094  1.35068  None  None  0.00017   0.0  0.0       0
+37  GBP_USD 2025-12-23 13:25:00+00:00  1.35092  1.35095  None  None  0.00037   0.0  0.0       0
+38  GBP_USD 2025-12-23 13:30:00+00:00  1.35064  1.35088  None  None  0.00015   0.0  0.0       0
+39  GBP_USD 2025-12-23 13:35:00+00:00  1.35074  1.35065  None  None  0.00020   0.0  0.0       0
+2025-12-23 08:35:12 Skipping trade - invalid signal or loss
+2025-12-23 08:40:06 CandleManager() new candle: last_candle:25-12-23 13:40 is_ready:False
+2025-12-23 08:40:06 tech_manager: max_rows:40 candle_time: 2025-12-23 13:40:00+00:00 granularity M5
+2025-12-23 08:40:06 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:20:00+00:00  1.35094  1.35068  None  None  0.00017   0.0  0.0       0
+36  GBP_USD 2025-12-23 13:25:00+00:00  1.35092  1.35095  None  None  0.00037   0.0  0.0       0
+37  GBP_USD 2025-12-23 13:30:00+00:00  1.35064  1.35088  None  None  0.00015   0.0  0.0       0
+38  GBP_USD 2025-12-23 13:35:00+00:00  1.35110  1.35065  None  None  0.00019   0.0  0.0       0
+39  GBP_USD 2025-12-23 13:40:00+00:00  1.35098  1.35108  None  None  0.00019   0.0  0.0       0
+2025-12-23 08:40:06 Skipping trade - invalid signal or loss
+2025-12-23 08:45:10 CandleManager() new candle: last_candle:25-12-23 13:45 is_ready:False
+2025-12-23 08:45:11 tech_manager: max_rows:40 candle_time: 2025-12-23 13:45:00+00:00 granularity M5
+2025-12-23 08:45:11 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:25:00+00:00  1.35092  1.35095  None  None  0.00037   0.0  0.0       0
+36  GBP_USD 2025-12-23 13:30:00+00:00  1.35064  1.35088  None  None  0.00015   0.0  0.0       0
+37  GBP_USD 2025-12-23 13:35:00+00:00  1.35110  1.35065  None  None  0.00019   0.0  0.0       0
+38  GBP_USD 2025-12-23 13:40:00+00:00  1.35114  1.35108  None  None  0.00021   0.0  0.0       0
+39  GBP_USD 2025-12-23 13:45:00+00:00  1.35104  1.35112  None  None  0.00018   0.0  0.0       0
+2025-12-23 08:45:11 Skipping trade - invalid signal or loss
+2025-12-23 08:50:04 CandleManager() new candle: last_candle:25-12-23 13:50 is_ready:False
+2025-12-23 08:50:05 tech_manager: max_rows:40 candle_time: 2025-12-23 13:50:00+00:00 granularity M5
+2025-12-23 08:50:05 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:30:00+00:00  1.35064  1.35088  None  None  0.00015   0.0  0.0       0
+36  GBP_USD 2025-12-23 13:35:00+00:00  1.35110  1.35065  None  None  0.00019   0.0  0.0       0
+37  GBP_USD 2025-12-23 13:40:00+00:00  1.35114  1.35108  None  None  0.00021   0.0  0.0       0
+38  GBP_USD 2025-12-23 13:45:00+00:00  1.35086  1.35112  None  None  0.00021   0.0  0.0       0
+39  GBP_USD 2025-12-23 13:50:00+00:00  1.35077  1.35086  None  None  0.00020   0.0  0.0       0
+2025-12-23 08:50:05 Skipping trade - invalid signal or loss
+2025-12-23 08:55:01 CandleManager() new candle: last_candle:25-12-23 13:55 is_ready:False
+2025-12-23 08:55:01 tech_manager: max_rows:40 candle_time: 2025-12-23 13:55:00+00:00 granularity M5
+2025-12-23 08:55:01 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:35:00+00:00  1.35110  1.35065  None  None  0.00019   0.0  0.0       0
+36  GBP_USD 2025-12-23 13:40:00+00:00  1.35114  1.35108  None  None  0.00021   0.0  0.0       0
+37  GBP_USD 2025-12-23 13:45:00+00:00  1.35086  1.35112  None  None  0.00021   0.0  0.0       0
+38  GBP_USD 2025-12-23 13:50:00+00:00  1.35008  1.35086  None  None  0.00019   0.0  0.0       0
+39  GBP_USD 2025-12-23 13:55:00+00:00  1.35008  1.35007  None  None  0.00019   0.0  0.0       0
+2025-12-23 08:55:01 Skipping trade - invalid signal or loss
+2025-12-23 09:00:05 CandleManager() new candle: last_candle:25-12-23 14:00 is_ready:False
+2025-12-23 09:00:05 tech_manager: max_rows:40 candle_time: 2025-12-23 14:00:00+00:00 granularity M5
+2025-12-23 09:00:05 process_candles:
+       PAIR                      time    mid_c    mid_o        SL       TP   SPREAD     GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:40:00+00:00  1.35114  1.35108       NaN      NaN  0.00021  0.00000  0.000000       0
+36  GBP_USD 2025-12-23 13:45:00+00:00  1.35086  1.35112       NaN      NaN  0.00021  0.00000  0.000000       0
+37  GBP_USD 2025-12-23 13:50:00+00:00  1.35008  1.35086       NaN      NaN  0.00019  0.00000  0.000000       0
+38  GBP_USD 2025-12-23 13:55:00+00:00  1.34946  1.35007  1.349223  1.34991  0.00019  0.00045  0.000237       1
+39  GBP_USD 2025-12-23 14:00:00+00:00  1.34930  1.34948       NaN      NaN  0.00021  0.00000  0.000000       0
+2025-12-23 09:00:05 Skipping trade - invalid signal or loss
+2025-12-23 09:05:10 CandleManager() new candle: last_candle:25-12-23 14:05 is_ready:False
+2025-12-23 09:05:10 tech_manager: max_rows:40 candle_time: 2025-12-23 14:05:00+00:00 granularity M5
+2025-12-23 09:05:10 process_candles:
+       PAIR                      time    mid_c    mid_o        SL       TP   SPREAD     GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:45:00+00:00  1.35086  1.35112       NaN      NaN  0.00021  0.00000  0.000000       0
+36  GBP_USD 2025-12-23 13:50:00+00:00  1.35008  1.35086       NaN      NaN  0.00019  0.00000  0.000000       0
+37  GBP_USD 2025-12-23 13:55:00+00:00  1.34946  1.35007  1.349223  1.34991  0.00019  0.00045  0.000237       1
+38  GBP_USD 2025-12-23 14:00:00+00:00  1.34923  1.34948       NaN      NaN  0.00020  0.00000  0.000000       0
+39  GBP_USD 2025-12-23 14:05:00+00:00  1.34921  1.34924       NaN      NaN  0.00020  0.00000  0.000000       0
+2025-12-23 09:05:10 Skipping trade - invalid signal or loss
+2025-12-23 09:10:06 CandleManager() new candle: last_candle:25-12-23 14:10 is_ready:False
+2025-12-23 09:10:06 tech_manager: max_rows:40 candle_time: 2025-12-23 14:10:00+00:00 granularity M5
+2025-12-23 09:10:06 process_candles:
+       PAIR                      time    mid_c    mid_o        SL       TP   SPREAD     GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:50:00+00:00  1.35008  1.35086       NaN      NaN  0.00019  0.00000  0.000000       0
+36  GBP_USD 2025-12-23 13:55:00+00:00  1.34946  1.35007  1.349223  1.34991  0.00019  0.00045  0.000237       1
+37  GBP_USD 2025-12-23 14:00:00+00:00  1.34923  1.34948       NaN      NaN  0.00020  0.00000  0.000000       0
+38  GBP_USD 2025-12-23 14:05:00+00:00  1.34958  1.34924       NaN      NaN  0.00019  0.00000  0.000000       0
+39  GBP_USD 2025-12-23 14:10:00+00:00  1.34956  1.34958       NaN      NaN  0.00021  0.00000  0.000000       0
+2025-12-23 09:10:06 Skipping trade - invalid signal or loss
+2025-12-23 09:15:10 CandleManager() new candle: last_candle:25-12-23 14:15 is_ready:False
+2025-12-23 09:15:10 tech_manager: max_rows:40 candle_time: 2025-12-23 14:15:00+00:00 granularity M5
+2025-12-23 09:15:10 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 13:55:00+00:00  1.34946  1.35007  1.349223  1.349910  0.00019  0.000450  0.000237       1
+36  GBP_USD 2025-12-23 14:00:00+00:00  1.34923  1.34948       NaN       NaN  0.00020  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 14:05:00+00:00  1.34958  1.34924       NaN       NaN  0.00019  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 14:10:00+00:00  1.34906  1.34958  1.348969  1.349232  0.00019  0.000172  0.000091       1
+39  GBP_USD 2025-12-23 14:15:00+00:00  1.34906  1.34908       NaN       NaN  0.00019  0.000000  0.000000       0
+2025-12-23 09:15:10 Skipping trade - invalid signal or loss
+2025-12-23 09:20:04 CandleManager() new candle: last_candle:25-12-23 14:20 is_ready:False
+2025-12-23 09:20:04 tech_manager: max_rows:40 candle_time: 2025-12-23 14:20:00+00:00 granularity M5
+2025-12-23 09:20:05 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:00:00+00:00  1.34923  1.34948       NaN       NaN  0.00020  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 14:05:00+00:00  1.34958  1.34924       NaN       NaN  0.00019  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 14:10:00+00:00  1.34906  1.34958  1.348969  1.349232  0.00019  0.000172  0.000091       1
+38  GBP_USD 2025-12-23 14:15:00+00:00  1.34898  1.34908  1.348967  1.349005  0.00022  0.000025  0.000013       1
+39  GBP_USD 2025-12-23 14:20:00+00:00  1.34893  1.34896       NaN       NaN  0.00020  0.000000  0.000000       0
+2025-12-23 09:20:05 Skipping trade - invalid signal or loss
+2025-12-23 09:25:02 CandleManager() new candle: last_candle:25-12-23 14:25 is_ready:False
+2025-12-23 09:25:02 tech_manager: max_rows:40 candle_time: 2025-12-23 14:25:00+00:00 granularity M5
+2025-12-23 09:25:02 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:05:00+00:00  1.34958  1.34924       NaN       NaN  0.00019  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 14:10:00+00:00  1.34906  1.34958  1.348969  1.349232  0.00019  0.000172  0.000091       1
+37  GBP_USD 2025-12-23 14:15:00+00:00  1.34898  1.34908  1.348967  1.349005  0.00022  0.000025  0.000013       1
+38  GBP_USD 2025-12-23 14:20:00+00:00  1.34896  1.34896       NaN       NaN  0.00018  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 14:25:00+00:00  1.34894  1.34897       NaN       NaN  0.00019  0.000000  0.000000       0
+2025-12-23 09:25:02 Skipping trade - invalid signal or loss
+2025-12-23 09:30:08 CandleManager() new candle: last_candle:25-12-23 14:30 is_ready:False
+2025-12-23 09:30:09 tech_manager: max_rows:40 candle_time: 2025-12-23 14:30:00+00:00 granularity M5
+2025-12-23 09:30:09 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:10:00+00:00  1.34906  1.34958  1.348969  1.349232  0.00019  0.000172  0.000091       1
+36  GBP_USD 2025-12-23 14:15:00+00:00  1.34898  1.34908  1.348967  1.349005  0.00022  0.000025  0.000013       1
+37  GBP_USD 2025-12-23 14:20:00+00:00  1.34896  1.34896       NaN       NaN  0.00018  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 14:25:00+00:00  1.34954  1.34897       NaN       NaN  0.00017  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 14:30:00+00:00  1.34950  1.34953       NaN       NaN  0.00016  0.000000  0.000000       0
+2025-12-23 09:30:09 Skipping trade - invalid signal or loss
+2025-12-23 09:35:05 CandleManager() new candle: last_candle:25-12-23 14:35 is_ready:False
+2025-12-23 09:35:06 tech_manager: max_rows:40 candle_time: 2025-12-23 14:35:00+00:00 granularity M5
+2025-12-23 09:35:06 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:15:00+00:00  1.34898  1.34908  1.348967  1.349005  0.00022  0.000025  0.000013       1
+36  GBP_USD 2025-12-23 14:20:00+00:00  1.34896  1.34896       NaN       NaN  0.00018  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 14:25:00+00:00  1.34954  1.34897       NaN       NaN  0.00017  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 14:30:00+00:00  1.34946  1.34953       NaN       NaN  0.00017  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 14:35:00+00:00  1.34944  1.34943       NaN       NaN  0.00015  0.000000  0.000000       0
+2025-12-23 09:35:06 Skipping trade - invalid signal or loss
+2025-12-23 09:40:04 CandleManager() new candle: last_candle:25-12-23 14:40 is_ready:False
+2025-12-23 09:40:04 tech_manager: max_rows:40 candle_time: 2025-12-23 14:40:00+00:00 granularity M5
+2025-12-23 09:40:04 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:20:00+00:00  1.34896  1.34896 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 14:25:00+00:00  1.34954  1.34897 NaN NaN  0.00017   0.0   0.0       0
+37  GBP_USD 2025-12-23 14:30:00+00:00  1.34946  1.34953 NaN NaN  0.00017   0.0   0.0       0
+38  GBP_USD 2025-12-23 14:35:00+00:00  1.34980  1.34943 NaN NaN  0.00021   0.0   0.0       0
+39  GBP_USD 2025-12-23 14:40:00+00:00  1.34972  1.34982 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 09:40:04 Skipping trade - invalid signal or loss
+2025-12-23 09:45:09 CandleManager() new candle: last_candle:25-12-23 14:45 is_ready:False
+2025-12-23 09:45:10 tech_manager: max_rows:40 candle_time: 2025-12-23 14:45:00+00:00 granularity M5
+2025-12-23 09:45:10 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:25:00+00:00  1.34954  1.34897 NaN NaN  0.00017   0.0   0.0       0
+36  GBP_USD 2025-12-23 14:30:00+00:00  1.34946  1.34953 NaN NaN  0.00017   0.0   0.0       0
+37  GBP_USD 2025-12-23 14:35:00+00:00  1.34980  1.34943 NaN NaN  0.00021   0.0   0.0       0
+38  GBP_USD 2025-12-23 14:40:00+00:00  1.34904  1.34982 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 14:45:00+00:00  1.34910  1.34904 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 09:45:10 Skipping trade - invalid signal or loss
+2025-12-23 09:50:03 CandleManager() new candle: last_candle:25-12-23 14:50 is_ready:False
+2025-12-23 09:50:03 tech_manager: max_rows:40 candle_time: 2025-12-23 14:50:00+00:00 granularity M5
+2025-12-23 09:50:03 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:30:00+00:00  1.34946  1.34953 NaN NaN  0.00017   0.0   0.0       0
+36  GBP_USD 2025-12-23 14:35:00+00:00  1.34980  1.34943 NaN NaN  0.00021   0.0   0.0       0
+37  GBP_USD 2025-12-23 14:40:00+00:00  1.34904  1.34982 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 14:45:00+00:00  1.34894  1.34904 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 14:50:00+00:00  1.34894  1.34892 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 09:50:03 Skipping trade - invalid signal or loss
+2025-12-23 09:55:10 CandleManager() new candle: last_candle:25-12-23 14:55 is_ready:False
+2025-12-23 09:55:10 tech_manager: max_rows:40 candle_time: 2025-12-23 14:55:00+00:00 granularity M5
+2025-12-23 09:55:10 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:35:00+00:00  1.34980  1.34943 NaN NaN  0.00021   0.0   0.0       0
+36  GBP_USD 2025-12-23 14:40:00+00:00  1.34904  1.34982 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 14:45:00+00:00  1.34894  1.34904 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 14:50:00+00:00  1.34877  1.34892 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 14:55:00+00:00  1.34882  1.34878 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 09:55:10 Skipping trade - invalid signal or loss
+2025-12-23 10:00:05 CandleManager() new candle: last_candle:25-12-23 15:00 is_ready:False
+2025-12-23 10:00:06 tech_manager: max_rows:40 candle_time: 2025-12-23 15:00:00+00:00 granularity M5
+2025-12-23 10:00:06 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:40:00+00:00  1.34904  1.34982 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 14:45:00+00:00  1.34894  1.34904 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 14:50:00+00:00  1.34877  1.34892 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 14:55:00+00:00  1.34842  1.34878 NaN NaN  0.00024   0.0   0.0       0
+39  GBP_USD 2025-12-23 15:00:00+00:00  1.34840  1.34842 NaN NaN  0.00021   0.0   0.0       0
+2025-12-23 10:00:06 Skipping trade - invalid signal or loss
+2025-12-23 10:05:01 CandleManager() new candle: last_candle:25-12-23 15:05 is_ready:False
+2025-12-23 10:05:01 tech_manager: max_rows:40 candle_time: 2025-12-23 15:05:00+00:00 granularity M5
+2025-12-23 10:05:01 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:45:00+00:00  1.34894  1.34904 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 14:50:00+00:00  1.34877  1.34892 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 14:55:00+00:00  1.34842  1.34878 NaN NaN  0.00024   0.0   0.0       0
+38  GBP_USD 2025-12-23 15:00:00+00:00  1.34852  1.34842 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 15:05:00+00:00  1.34848  1.34850 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 10:05:01 Skipping trade - invalid signal or loss
+2025-12-23 10:10:06 CandleManager() new candle: last_candle:25-12-23 15:10 is_ready:False
+2025-12-23 10:10:07 tech_manager: max_rows:40 candle_time: 2025-12-23 15:10:00+00:00 granularity M5
+2025-12-23 10:10:07 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:50:00+00:00  1.34877  1.34892 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 14:55:00+00:00  1.34842  1.34878 NaN NaN  0.00024   0.0   0.0       0
+37  GBP_USD 2025-12-23 15:00:00+00:00  1.34852  1.34842 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 15:05:00+00:00  1.34942  1.34850 NaN NaN  0.00017   0.0   0.0       0
+39  GBP_USD 2025-12-23 15:10:00+00:00  1.34946  1.34942 NaN NaN  0.00016   0.0   0.0       0
+2025-12-23 10:10:07 Skipping trade - invalid signal or loss
+2025-12-23 10:15:11 CandleManager() new candle: last_candle:25-12-23 15:15 is_ready:False
+2025-12-23 10:15:11 tech_manager: max_rows:40 candle_time: 2025-12-23 15:15:00+00:00 granularity M5
+2025-12-23 10:15:11 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 14:55:00+00:00  1.34842  1.34878 NaN NaN  0.00024   0.0   0.0       0
+36  GBP_USD 2025-12-23 15:00:00+00:00  1.34852  1.34842 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 15:05:00+00:00  1.34942  1.34850 NaN NaN  0.00017   0.0   0.0       0
+38  GBP_USD 2025-12-23 15:10:00+00:00  1.34944  1.34942 NaN NaN  0.00017   0.0   0.0       0
+39  GBP_USD 2025-12-23 15:15:00+00:00  1.34951  1.34945 NaN NaN  0.00020   0.0   0.0       0
+2025-12-23 10:15:11 Skipping trade - invalid signal or loss
+2025-12-23 10:20:05 CandleManager() new candle: last_candle:25-12-23 15:20 is_ready:False
+2025-12-23 10:20:06 tech_manager: max_rows:40 candle_time: 2025-12-23 15:20:00+00:00 granularity M5
+2025-12-23 10:20:06 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:00:00+00:00  1.34852  1.34842 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 15:05:00+00:00  1.34942  1.34850 NaN NaN  0.00017   0.0   0.0       0
+37  GBP_USD 2025-12-23 15:10:00+00:00  1.34944  1.34942 NaN NaN  0.00017   0.0   0.0       0
+38  GBP_USD 2025-12-23 15:15:00+00:00  1.34924  1.34945 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 15:20:00+00:00  1.34927  1.34926 NaN NaN  0.00018   0.0   0.0       0
+2025-12-23 10:20:06 Skipping trade - invalid signal or loss
+2025-12-23 10:25:10 CandleManager() new candle: last_candle:25-12-23 15:25 is_ready:False
+2025-12-23 10:25:11 tech_manager: max_rows:40 candle_time: 2025-12-23 15:25:00+00:00 granularity M5
+2025-12-23 10:25:11 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:05:00+00:00  1.34942  1.34850 NaN NaN  0.00017   0.0   0.0       0
+36  GBP_USD 2025-12-23 15:10:00+00:00  1.34944  1.34942 NaN NaN  0.00017   0.0   0.0       0
+37  GBP_USD 2025-12-23 15:15:00+00:00  1.34924  1.34945 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 15:20:00+00:00  1.34962  1.34926 NaN NaN  0.00021   0.0   0.0       0
+39  GBP_USD 2025-12-23 15:25:00+00:00  1.34954  1.34964 NaN NaN  0.00018   0.0   0.0       0
+2025-12-23 10:25:11 Skipping trade - invalid signal or loss
+2025-12-23 10:30:05 CandleManager() new candle: last_candle:25-12-23 15:30 is_ready:False
+2025-12-23 10:30:06 tech_manager: max_rows:40 candle_time: 2025-12-23 15:30:00+00:00 granularity M5
+2025-12-23 10:30:06 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:10:00+00:00  1.34944  1.34942 NaN NaN  0.00017   0.0   0.0       0
+36  GBP_USD 2025-12-23 15:15:00+00:00  1.34924  1.34945 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 15:20:00+00:00  1.34962  1.34926 NaN NaN  0.00021   0.0   0.0       0
+38  GBP_USD 2025-12-23 15:25:00+00:00  1.34906  1.34964 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 15:30:00+00:00  1.34918  1.34906 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 10:30:06 Skipping trade - invalid signal or loss
+2025-12-23 10:35:01 CandleManager() new candle: last_candle:25-12-23 15:35 is_ready:False
+2025-12-23 10:35:01 tech_manager: max_rows:40 candle_time: 2025-12-23 15:35:00+00:00 granularity M5
+2025-12-23 10:35:01 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:15:00+00:00  1.34924  1.34945       NaN       NaN  0.00020  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 15:20:00+00:00  1.34962  1.34926       NaN       NaN  0.00021  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 15:25:00+00:00  1.34906  1.34964       NaN       NaN  0.00019  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 15:30:00+00:00  1.34834  1.34906  1.348271  1.348472  0.00021  0.000132  0.000069       1
+39  GBP_USD 2025-12-23 15:35:00+00:00  1.34834  1.34832       NaN       NaN  0.00021  0.000000  0.000000       0
+2025-12-23 10:35:01 Skipping trade - invalid signal or loss
+2025-12-23 10:40:08 CandleManager() new candle: last_candle:25-12-23 15:40 is_ready:False
+2025-12-23 10:40:08 tech_manager: max_rows:40 candle_time: 2025-12-23 15:40:00+00:00 granularity M5
+2025-12-23 10:40:08 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:20:00+00:00  1.34962  1.34926       NaN       NaN  0.00021  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 15:25:00+00:00  1.34906  1.34964       NaN       NaN  0.00019  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 15:30:00+00:00  1.34834  1.34906  1.348271  1.348472  0.00021  0.000132  0.000069       1
+38  GBP_USD 2025-12-23 15:35:00+00:00  1.34774  1.34832  1.347472  1.348248  0.00017  0.000508  0.000268       1
+39  GBP_USD 2025-12-23 15:40:00+00:00  1.34792  1.34773       NaN       NaN  0.00019  0.000000  0.000000       0
+2025-12-23 10:40:08 Skipping trade - invalid signal or loss
+2025-12-23 10:45:02 CandleManager() new candle: last_candle:25-12-23 15:45 is_ready:False
+2025-12-23 10:45:03 tech_manager: max_rows:40 candle_time: 2025-12-23 15:45:00+00:00 granularity M5
+2025-12-23 10:45:03 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:25:00+00:00  1.34906  1.34964       NaN       NaN  0.00019  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 15:30:00+00:00  1.34834  1.34906  1.348271  1.348472  0.00021  0.000132  0.000069       1
+37  GBP_USD 2025-12-23 15:35:00+00:00  1.34774  1.34832  1.347472  1.348248  0.00017  0.000508  0.000268       1
+38  GBP_USD 2025-12-23 15:40:00+00:00  1.34792  1.34773       NaN       NaN  0.00019  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 15:45:00+00:00  1.34794  1.34794       NaN       NaN  0.00019  0.000000  0.000000       0
+2025-12-23 10:45:03 Skipping trade - invalid signal or loss
+2025-12-23 10:50:07 CandleManager() new candle: last_candle:25-12-23 15:50 is_ready:False
+2025-12-23 10:50:07 tech_manager: max_rows:40 candle_time: 2025-12-23 15:50:00+00:00 granularity M5
+2025-12-23 10:50:08 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:30:00+00:00  1.34834  1.34906  1.348271  1.348472  0.00021  0.000132  0.000069       1
+36  GBP_USD 2025-12-23 15:35:00+00:00  1.34774  1.34832  1.347472  1.348248  0.00017  0.000508  0.000268       1
+37  GBP_USD 2025-12-23 15:40:00+00:00  1.34792  1.34773       NaN       NaN  0.00019  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 15:45:00+00:00  1.34784  1.34794       NaN       NaN  0.00018  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 15:50:00+00:00  1.34789  1.34785       NaN       NaN  0.00018  0.000000  0.000000       0
+2025-12-23 10:50:08 Skipping trade - invalid signal or loss
+2025-12-23 10:55:03 CandleManager() new candle: last_candle:25-12-23 15:55 is_ready:False
+2025-12-23 10:55:04 tech_manager: max_rows:40 candle_time: 2025-12-23 15:55:00+00:00 granularity M5
+2025-12-23 10:55:04 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:35:00+00:00  1.34774  1.34832  1.347472  1.348248  0.00017  0.000508  0.000268       1
+36  GBP_USD 2025-12-23 15:40:00+00:00  1.34792  1.34773       NaN       NaN  0.00019  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 15:45:00+00:00  1.34784  1.34794       NaN       NaN  0.00018  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 15:50:00+00:00  1.34787  1.34785       NaN       NaN  0.00016  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 15:55:00+00:00  1.34767  1.34786       NaN       NaN  0.00018  0.000000  0.000000       0
+2025-12-23 10:55:04 Skipping trade - invalid signal or loss
+2025-12-23 11:00:02 CandleManager() new candle: last_candle:25-12-23 16:00 is_ready:False
+2025-12-23 11:00:02 tech_manager: max_rows:40 candle_time: 2025-12-23 16:00:00+00:00 granularity M5
+2025-12-23 11:00:03 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:40:00+00:00  1.34792  1.34773 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 15:45:00+00:00  1.34784  1.34794 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 15:50:00+00:00  1.34787  1.34785 NaN NaN  0.00016   0.0   0.0       0
+38  GBP_USD 2025-12-23 15:55:00+00:00  1.34838  1.34786 NaN NaN  0.00016   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:00:00+00:00  1.34838  1.34838 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 11:00:03 Skipping trade - invalid signal or loss
+2025-12-23 11:05:05 CandleManager() new candle: last_candle:25-12-23 16:05 is_ready:False
+2025-12-23 11:05:05 tech_manager: max_rows:40 candle_time: 2025-12-23 16:05:00+00:00 granularity M5
+2025-12-23 11:05:06 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:45:00+00:00  1.34784  1.34794 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 15:50:00+00:00  1.34787  1.34785 NaN NaN  0.00016   0.0   0.0       0
+37  GBP_USD 2025-12-23 15:55:00+00:00  1.34838  1.34786 NaN NaN  0.00016   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:00:00+00:00  1.34806  1.34838 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:05:00+00:00  1.34807  1.34806 NaN NaN  0.00018   0.0   0.0       0
+2025-12-23 11:05:06 Skipping trade - invalid signal or loss
+2025-12-23 11:10:11 CandleManager() new candle: last_candle:25-12-23 16:10 is_ready:False
+2025-12-23 11:10:11 tech_manager: max_rows:40 candle_time: 2025-12-23 16:10:00+00:00 granularity M5
+2025-12-23 11:10:11 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:50:00+00:00  1.34787  1.34785 NaN NaN  0.00016   0.0   0.0       0
+36  GBP_USD 2025-12-23 15:55:00+00:00  1.34838  1.34786 NaN NaN  0.00016   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:00:00+00:00  1.34806  1.34838 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:05:00+00:00  1.34804  1.34806 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:10:00+00:00  1.34814  1.34804 NaN NaN  0.00018   0.0   0.0       0
+2025-12-23 11:10:11 Skipping trade - invalid signal or loss
+2025-12-23 11:15:05 CandleManager() new candle: last_candle:25-12-23 16:15 is_ready:False
+2025-12-23 11:15:05 tech_manager: max_rows:40 candle_time: 2025-12-23 16:15:00+00:00 granularity M5
+2025-12-23 11:15:05 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 15:55:00+00:00  1.34838  1.34786 NaN NaN  0.00016   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:00:00+00:00  1.34806  1.34838 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:05:00+00:00  1.34804  1.34806 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:10:00+00:00  1.34811  1.34804 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:15:00+00:00  1.34808  1.34810 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 11:15:05 Skipping trade - invalid signal or loss
+2025-12-23 11:20:09 CandleManager() new candle: last_candle:25-12-23 16:20 is_ready:False
+2025-12-23 11:20:10 tech_manager: max_rows:40 candle_time: 2025-12-23 16:20:00+00:00 granularity M5
+2025-12-23 11:20:10 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:00:00+00:00  1.34806  1.34838 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:05:00+00:00  1.34804  1.34806 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:10:00+00:00  1.34811  1.34804 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:15:00+00:00  1.34812  1.34810 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:20:00+00:00  1.34814  1.34812 NaN NaN  0.00018   0.0   0.0       0
+2025-12-23 11:20:10 Skipping trade - invalid signal or loss
+2025-12-23 11:25:04 CandleManager() new candle: last_candle:25-12-23 16:25 is_ready:False
+2025-12-23 11:25:04 tech_manager: max_rows:40 candle_time: 2025-12-23 16:25:00+00:00 granularity M5
+2025-12-23 11:25:04 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:05:00+00:00  1.34804  1.34806 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:10:00+00:00  1.34811  1.34804 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:15:00+00:00  1.34812  1.34810 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:20:00+00:00  1.34818  1.34812 NaN NaN  0.00021   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:25:00+00:00  1.34814  1.34819 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 11:25:04 Skipping trade - invalid signal or loss
+2025-12-23 11:30:09 CandleManager() new candle: last_candle:25-12-23 16:30 is_ready:False
+2025-12-23 11:30:09 tech_manager: max_rows:40 candle_time: 2025-12-23 16:30:00+00:00 granularity M5
+2025-12-23 11:30:09 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:10:00+00:00  1.34811  1.34804 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:15:00+00:00  1.34812  1.34810 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:20:00+00:00  1.34818  1.34812 NaN NaN  0.00021   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:25:00+00:00  1.34822  1.34819 NaN NaN  0.00022   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:30:00+00:00  1.34826  1.34822 NaN NaN  0.00021   0.0   0.0       0
+2025-12-23 11:30:09 Skipping trade - invalid signal or loss
+2025-12-23 11:35:03 CandleManager() new candle: last_candle:25-12-23 16:35 is_ready:False
+2025-12-23 11:35:04 tech_manager: max_rows:40 candle_time: 2025-12-23 16:35:00+00:00 granularity M5
+2025-12-23 11:35:04 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:15:00+00:00  1.34812  1.34810 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:20:00+00:00  1.34818  1.34812 NaN NaN  0.00021   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:25:00+00:00  1.34822  1.34819 NaN NaN  0.00022   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:30:00+00:00  1.34822  1.34822 NaN NaN  0.00021   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:35:00+00:00  1.34822  1.34822 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 11:35:04 Skipping trade - invalid signal or loss
+2025-12-23 11:40:08 CandleManager() new candle: last_candle:25-12-23 16:40 is_ready:False
+2025-12-23 11:40:08 tech_manager: max_rows:40 candle_time: 2025-12-23 16:40:00+00:00 granularity M5
+2025-12-23 11:40:08 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:20:00+00:00  1.34818  1.34812 NaN NaN  0.00021   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:25:00+00:00  1.34822  1.34819 NaN NaN  0.00022   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:30:00+00:00  1.34822  1.34822 NaN NaN  0.00021   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:35:00+00:00  1.34825  1.34822 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:40:00+00:00  1.34824  1.34826 NaN NaN  0.00020   0.0   0.0       0
+2025-12-23 11:40:08 Skipping trade - invalid signal or loss
+2025-12-23 11:45:01 CandleManager() new candle: last_candle:25-12-23 16:45 is_ready:False
+2025-12-23 11:45:02 tech_manager: max_rows:40 candle_time: 2025-12-23 16:45:00+00:00 granularity M5
+2025-12-23 11:45:02 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:25:00+00:00  1.34822  1.34819 NaN NaN  0.00022   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:30:00+00:00  1.34822  1.34822 NaN NaN  0.00021   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:35:00+00:00  1.34825  1.34822 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:40:00+00:00  1.34846  1.34826 NaN NaN  0.00021   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:45:00+00:00  1.34846  1.34846 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 11:45:02 Skipping trade - invalid signal or loss
+2025-12-23 11:50:07 CandleManager() new candle: last_candle:25-12-23 16:50 is_ready:False
+2025-12-23 11:50:07 tech_manager: max_rows:40 candle_time: 2025-12-23 16:50:00+00:00 granularity M5
+2025-12-23 11:50:07 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:30:00+00:00  1.34822  1.34822 NaN NaN  0.00021   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:35:00+00:00  1.34825  1.34822 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:40:00+00:00  1.34846  1.34826 NaN NaN  0.00021   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:45:00+00:00  1.34866  1.34846 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:50:00+00:00  1.34866  1.34866 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 11:50:07 Skipping trade - invalid signal or loss
+2025-12-23 11:55:01 CandleManager() new candle: last_candle:25-12-23 16:55 is_ready:False
+2025-12-23 11:55:02 tech_manager: max_rows:40 candle_time: 2025-12-23 16:55:00+00:00 granularity M5
+2025-12-23 11:55:02 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:35:00+00:00  1.34825  1.34822 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:40:00+00:00  1.34846  1.34826 NaN NaN  0.00021   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:45:00+00:00  1.34866  1.34846 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:50:00+00:00  1.34854  1.34866 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 16:55:00+00:00  1.34854  1.34854 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 11:55:02 Skipping trade - invalid signal or loss
+2025-12-23 12:00:07 CandleManager() new candle: last_candle:25-12-23 17:00 is_ready:False
+2025-12-23 12:00:08 tech_manager: max_rows:40 candle_time: 2025-12-23 17:00:00+00:00 granularity M5
+2025-12-23 12:00:08 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:40:00+00:00  1.34846  1.34826 NaN NaN  0.00021   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:45:00+00:00  1.34866  1.34846 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:50:00+00:00  1.34854  1.34866 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 16:55:00+00:00  1.34847  1.34854 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 17:00:00+00:00  1.34840  1.34847 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 12:00:08 Skipping trade - invalid signal or loss
+2025-12-23 12:05:12 CandleManager() new candle: last_candle:25-12-23 17:05 is_ready:False
+2025-12-23 12:05:13 tech_manager: max_rows:40 candle_time: 2025-12-23 17:05:00+00:00 granularity M5
+2025-12-23 12:05:13 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:45:00+00:00  1.34866  1.34846 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:50:00+00:00  1.34854  1.34866 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 16:55:00+00:00  1.34847  1.34854 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 17:00:00+00:00  1.34855  1.34847 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 17:05:00+00:00  1.34854  1.34856 NaN NaN  0.00021   0.0   0.0       0
+2025-12-23 12:05:13 Skipping trade - invalid signal or loss
+2025-12-23 12:10:07 CandleManager() new candle: last_candle:25-12-23 17:10 is_ready:False
+2025-12-23 12:10:07 tech_manager: max_rows:40 candle_time: 2025-12-23 17:10:00+00:00 granularity M5
+2025-12-23 12:10:07 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:50:00+00:00  1.34854  1.34866 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 16:55:00+00:00  1.34847  1.34854 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 17:00:00+00:00  1.34855  1.34847 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 17:05:00+00:00  1.34814  1.34856 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 17:10:00+00:00  1.34802  1.34814 NaN NaN  0.00020   0.0   0.0       0
+2025-12-23 12:10:07 Skipping trade - invalid signal or loss
+2025-12-23 12:15:02 CandleManager() new candle: last_candle:25-12-23 17:15 is_ready:False
+2025-12-23 12:15:02 tech_manager: max_rows:40 candle_time: 2025-12-23 17:15:00+00:00 granularity M5
+2025-12-23 12:15:02 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 16:55:00+00:00  1.34847  1.34854 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 17:00:00+00:00  1.34855  1.34847 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 17:05:00+00:00  1.34814  1.34856 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 17:10:00+00:00  1.34772  1.34814 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 17:15:00+00:00  1.34764  1.34772 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 12:15:02 Skipping trade - invalid signal or loss
+2025-12-23 12:20:07 CandleManager() new candle: last_candle:25-12-23 17:20 is_ready:False
+2025-12-23 12:20:07 tech_manager: max_rows:40 candle_time: 2025-12-23 17:20:00+00:00 granularity M5
+2025-12-23 12:20:07 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:00:00+00:00  1.34855  1.34847  None  None  0.00018   0.0  0.0       0
+36  GBP_USD 2025-12-23 17:05:00+00:00  1.34814  1.34856  None  None  0.00019   0.0  0.0       0
+37  GBP_USD 2025-12-23 17:10:00+00:00  1.34772  1.34814  None  None  0.00020   0.0  0.0       0
+38  GBP_USD 2025-12-23 17:15:00+00:00  1.34770  1.34772  None  None  0.00019   0.0  0.0       0
+39  GBP_USD 2025-12-23 17:20:00+00:00  1.34772  1.34770  None  None  0.00019   0.0  0.0       0
+2025-12-23 12:20:07 Skipping trade - invalid signal or loss
+2025-12-23 12:25:03 CandleManager() new candle: last_candle:25-12-23 17:25 is_ready:False
+2025-12-23 12:25:04 tech_manager: max_rows:40 candle_time: 2025-12-23 17:25:00+00:00 granularity M5
+2025-12-23 12:25:04 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:05:00+00:00  1.34814  1.34856  None  None  0.00019   0.0  0.0       0
+36  GBP_USD 2025-12-23 17:10:00+00:00  1.34772  1.34814  None  None  0.00020   0.0  0.0       0
+37  GBP_USD 2025-12-23 17:15:00+00:00  1.34770  1.34772  None  None  0.00019   0.0  0.0       0
+38  GBP_USD 2025-12-23 17:20:00+00:00  1.34782  1.34770  None  None  0.00019   0.0  0.0       0
+39  GBP_USD 2025-12-23 17:25:00+00:00  1.34784  1.34782  None  None  0.00019   0.0  0.0       0
+2025-12-23 12:25:04 Skipping trade - invalid signal or loss
+2025-12-23 12:30:08 CandleManager() new candle: last_candle:25-12-23 17:30 is_ready:False
+2025-12-23 12:30:09 tech_manager: max_rows:40 candle_time: 2025-12-23 17:30:00+00:00 granularity M5
+2025-12-23 12:30:09 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:10:00+00:00  1.34772  1.34814  None  None  0.00020   0.0  0.0       0
+36  GBP_USD 2025-12-23 17:15:00+00:00  1.34770  1.34772  None  None  0.00019   0.0  0.0       0
+37  GBP_USD 2025-12-23 17:20:00+00:00  1.34782  1.34770  None  None  0.00019   0.0  0.0       0
+38  GBP_USD 2025-12-23 17:25:00+00:00  1.34788  1.34782  None  None  0.00019   0.0  0.0       0
+39  GBP_USD 2025-12-23 17:30:00+00:00  1.34790  1.34790  None  None  0.00019   0.0  0.0       0
+2025-12-23 12:30:09 Skipping trade - invalid signal or loss
+2025-12-23 12:35:02 CandleManager() new candle: last_candle:25-12-23 17:35 is_ready:False
+2025-12-23 12:35:03 tech_manager: max_rows:40 candle_time: 2025-12-23 17:35:00+00:00 granularity M5
+2025-12-23 12:35:03 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:15:00+00:00  1.34770  1.34772       NaN       NaN  0.00019  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 17:20:00+00:00  1.34782  1.34770       NaN       NaN  0.00019  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 17:25:00+00:00  1.34788  1.34782       NaN       NaN  0.00019  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 17:30:00+00:00  1.34746  1.34790  1.347386  1.347601  0.00020  0.000141  0.000074       1
+39  GBP_USD 2025-12-23 17:35:00+00:00  1.34754  1.34750       NaN       NaN  0.00018  0.000000  0.000000       0
+2025-12-23 12:35:03 Skipping trade - invalid signal or loss
+2025-12-23 12:40:07 CandleManager() new candle: last_candle:25-12-23 17:40 is_ready:False
+2025-12-23 12:40:07 tech_manager: max_rows:40 candle_time: 2025-12-23 17:40:00+00:00 granularity M5
+2025-12-23 12:40:08 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:20:00+00:00  1.34782  1.34770       NaN       NaN  0.00019  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 17:25:00+00:00  1.34788  1.34782       NaN       NaN  0.00019  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 17:30:00+00:00  1.34746  1.34790  1.347386  1.347601  0.00020  0.000141  0.000074       1
+38  GBP_USD 2025-12-23 17:35:00+00:00  1.34791  1.34750       NaN       NaN  0.00018  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 17:40:00+00:00  1.34784  1.34792       NaN       NaN  0.00017  0.000000  0.000000       0
+2025-12-23 12:40:08 Skipping trade - invalid signal or loss
+2025-12-23 12:45:01 CandleManager() new candle: last_candle:25-12-23 17:45 is_ready:False
+2025-12-23 12:45:01 tech_manager: max_rows:40 candle_time: 2025-12-23 17:45:00+00:00 granularity M5
+2025-12-23 12:45:01 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:25:00+00:00  1.34788  1.34782       NaN       NaN  0.00019  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 17:30:00+00:00  1.34746  1.34790  1.347386  1.347601  0.00020  0.000141  0.000074       1
+37  GBP_USD 2025-12-23 17:35:00+00:00  1.34791  1.34750       NaN       NaN  0.00018  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 17:40:00+00:00  1.34762  1.34792       NaN       NaN  0.00019  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 17:45:00+00:00  1.34763  1.34763       NaN       NaN  0.00018  0.000000  0.000000       0
+2025-12-23 12:45:01 Skipping trade - invalid signal or loss
+2025-12-23 12:50:06 CandleManager() new candle: last_candle:25-12-23 17:50 is_ready:False
+2025-12-23 12:50:06 tech_manager: max_rows:40 candle_time: 2025-12-23 17:50:00+00:00 granularity M5
+2025-12-23 12:50:06 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:30:00+00:00  1.34746  1.34790  1.347386  1.347601  0.00020  0.000141  0.000074       1
+36  GBP_USD 2025-12-23 17:35:00+00:00  1.34791  1.34750       NaN       NaN  0.00018  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 17:40:00+00:00  1.34762  1.34792       NaN       NaN  0.00019  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 17:45:00+00:00  1.34735  1.34763  1.347314  1.347418  0.00020  0.000068  0.000036       1
+39  GBP_USD 2025-12-23 17:50:00+00:00  1.34735  1.34734       NaN       NaN  0.00020  0.000000  0.000000       0
+2025-12-23 12:50:06 Skipping trade - invalid signal or loss
+2025-12-23 12:55:11 CandleManager() new candle: last_candle:25-12-23 17:55 is_ready:False
+2025-12-23 12:55:11 tech_manager: max_rows:40 candle_time: 2025-12-23 17:55:00+00:00 granularity M5
+2025-12-23 12:55:11 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:35:00+00:00  1.34791  1.34750       NaN       NaN  0.00018  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 17:40:00+00:00  1.34762  1.34792       NaN       NaN  0.00019  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 17:45:00+00:00  1.34735  1.34763  1.347314  1.347418  0.00020  0.000068  0.000036       1
+38  GBP_USD 2025-12-23 17:50:00+00:00  1.34736  1.34734       NaN       NaN  0.00019  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 17:55:00+00:00  1.34732  1.34734       NaN       NaN  0.00019  0.000000  0.000000       0
+2025-12-23 12:55:11 Skipping trade - invalid signal or loss
+2025-12-23 13:00:07 CandleManager() new candle: last_candle:25-12-23 18:00 is_ready:False
+2025-12-23 13:00:07 tech_manager: max_rows:40 candle_time: 2025-12-23 18:00:00+00:00 granularity M5
+2025-12-23 13:00:07 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:40:00+00:00  1.34762  1.34792       NaN       NaN  0.00019  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 17:45:00+00:00  1.34735  1.34763  1.347314  1.347418  0.00020  0.000068  0.000036       1
+37  GBP_USD 2025-12-23 17:50:00+00:00  1.34736  1.34734       NaN       NaN  0.00019  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 17:55:00+00:00  1.34734  1.34734       NaN       NaN  0.00019  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 18:00:00+00:00  1.34728  1.34733       NaN       NaN  0.00019  0.000000  0.000000       0
+2025-12-23 13:00:07 Skipping trade - invalid signal or loss
+2025-12-23 13:05:01 CandleManager() new candle: last_candle:25-12-23 18:05 is_ready:False
+2025-12-23 13:05:02 tech_manager: max_rows:40 candle_time: 2025-12-23 18:05:00+00:00 granularity M5
+2025-12-23 13:05:02 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:45:00+00:00  1.34735  1.34763  1.347314  1.347418  0.00020  0.000068  0.000036       1
+36  GBP_USD 2025-12-23 17:50:00+00:00  1.34736  1.34734       NaN       NaN  0.00019  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 17:55:00+00:00  1.34734  1.34734       NaN       NaN  0.00019  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 18:00:00+00:00  1.34722  1.34733       NaN       NaN  0.00019  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 18:05:00+00:00  1.34723  1.34723       NaN       NaN  0.00018  0.000000  0.000000       0
+2025-12-23 13:05:02 Skipping trade - invalid signal or loss
+2025-12-23 13:10:06 CandleManager() new candle: last_candle:25-12-23 18:10 is_ready:False
+2025-12-23 13:10:06 tech_manager: max_rows:40 candle_time: 2025-12-23 18:10:00+00:00 granularity M5
+2025-12-23 13:10:06 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:50:00+00:00  1.34736  1.34734 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 17:55:00+00:00  1.34734  1.34734 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 18:00:00+00:00  1.34722  1.34733 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 18:05:00+00:00  1.34742  1.34723 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 18:10:00+00:00  1.34745  1.34742 NaN NaN  0.00020   0.0   0.0       0
+2025-12-23 13:10:06 Skipping trade - invalid signal or loss
+2025-12-23 13:15:02 CandleManager() new candle: last_candle:25-12-23 18:15 is_ready:False
+2025-12-23 13:15:02 tech_manager: max_rows:40 candle_time: 2025-12-23 18:15:00+00:00 granularity M5
+2025-12-23 13:15:02 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 17:55:00+00:00  1.34734  1.34734 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 18:00:00+00:00  1.34722  1.34733 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 18:05:00+00:00  1.34742  1.34723 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 18:10:00+00:00  1.34762  1.34742 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 18:15:00+00:00  1.34753  1.34758 NaN NaN  0.00022   0.0   0.0       0
+2025-12-23 13:15:02 Skipping trade - invalid signal or loss
+2025-12-23 13:20:06 CandleManager() new candle: last_candle:25-12-23 18:20 is_ready:False
+2025-12-23 13:20:07 tech_manager: max_rows:40 candle_time: 2025-12-23 18:20:00+00:00 granularity M5
+2025-12-23 13:20:07 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:00:00+00:00  1.34722  1.34733 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 18:05:00+00:00  1.34742  1.34723 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 18:10:00+00:00  1.34762  1.34742 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 18:15:00+00:00  1.34814  1.34758 NaN NaN  0.00017   0.0   0.0       0
+39  GBP_USD 2025-12-23 18:20:00+00:00  1.34816  1.34815 NaN NaN  0.00016   0.0   0.0       0
+2025-12-23 13:20:07 Skipping trade - invalid signal or loss
+2025-12-23 13:25:12 CandleManager() new candle: last_candle:25-12-23 18:25 is_ready:False
+2025-12-23 13:25:12 tech_manager: max_rows:40 candle_time: 2025-12-23 18:25:00+00:00 granularity M5
+2025-12-23 13:25:12 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:05:00+00:00  1.34742  1.34723 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 18:10:00+00:00  1.34762  1.34742 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 18:15:00+00:00  1.34814  1.34758 NaN NaN  0.00017   0.0   0.0       0
+38  GBP_USD 2025-12-23 18:20:00+00:00  1.34820  1.34815 NaN NaN  0.00015   0.0   0.0       0
+39  GBP_USD 2025-12-23 18:25:00+00:00  1.34802  1.34817 NaN NaN  0.00015   0.0   0.0       0
+2025-12-23 13:25:12 Skipping trade - invalid signal or loss
+2025-12-23 13:30:06 CandleManager() new candle: last_candle:25-12-23 18:30 is_ready:False
+2025-12-23 13:30:06 tech_manager: max_rows:40 candle_time: 2025-12-23 18:30:00+00:00 granularity M5
+2025-12-23 13:30:06 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:10:00+00:00  1.34762  1.34742 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 18:15:00+00:00  1.34814  1.34758 NaN NaN  0.00017   0.0   0.0       0
+37  GBP_USD 2025-12-23 18:20:00+00:00  1.34820  1.34815 NaN NaN  0.00015   0.0   0.0       0
+38  GBP_USD 2025-12-23 18:25:00+00:00  1.34804  1.34817 NaN NaN  0.00015   0.0   0.0       0
+39  GBP_USD 2025-12-23 18:30:00+00:00  1.34806  1.34807 NaN NaN  0.00015   0.0   0.0       0
+2025-12-23 13:30:06 Skipping trade - invalid signal or loss
+2025-12-23 13:35:11 CandleManager() new candle: last_candle:25-12-23 18:35 is_ready:False
+2025-12-23 13:35:12 tech_manager: max_rows:40 candle_time: 2025-12-23 18:35:00+00:00 granularity M5
+2025-12-23 13:35:12 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:15:00+00:00  1.34814  1.34758 NaN NaN  0.00017   0.0   0.0       0
+36  GBP_USD 2025-12-23 18:20:00+00:00  1.34820  1.34815 NaN NaN  0.00015   0.0   0.0       0
+37  GBP_USD 2025-12-23 18:25:00+00:00  1.34804  1.34817 NaN NaN  0.00015   0.0   0.0       0
+38  GBP_USD 2025-12-23 18:30:00+00:00  1.34828  1.34807 NaN NaN  0.00015   0.0   0.0       0
+39  GBP_USD 2025-12-23 18:35:00+00:00  1.34824  1.34828 NaN NaN  0.00016   0.0   0.0       0
+2025-12-23 13:35:12 Skipping trade - invalid signal or loss
+2025-12-23 13:40:07 CandleManager() new candle: last_candle:25-12-23 18:40 is_ready:False
+2025-12-23 13:40:07 tech_manager: max_rows:40 candle_time: 2025-12-23 18:40:00+00:00 granularity M5
+2025-12-23 13:40:07 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:20:00+00:00  1.34820  1.34815 NaN NaN  0.00015   0.0   0.0       0
+36  GBP_USD 2025-12-23 18:25:00+00:00  1.34804  1.34817 NaN NaN  0.00015   0.0   0.0       0
+37  GBP_USD 2025-12-23 18:30:00+00:00  1.34828  1.34807 NaN NaN  0.00015   0.0   0.0       0
+38  GBP_USD 2025-12-23 18:35:00+00:00  1.34832  1.34828 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 18:40:00+00:00  1.34832  1.34832 NaN NaN  0.00018   0.0   0.0       0
+2025-12-23 13:40:07 Skipping trade - invalid signal or loss
+2025-12-23 13:45:02 CandleManager() new candle: last_candle:25-12-23 18:45 is_ready:False
+2025-12-23 13:45:03 tech_manager: max_rows:40 candle_time: 2025-12-23 18:45:00+00:00 granularity M5
+2025-12-23 13:45:03 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:25:00+00:00  1.34804  1.34817 NaN NaN  0.00015   0.0   0.0       0
+36  GBP_USD 2025-12-23 18:30:00+00:00  1.34828  1.34807 NaN NaN  0.00015   0.0   0.0       0
+37  GBP_USD 2025-12-23 18:35:00+00:00  1.34832  1.34828 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 18:40:00+00:00  1.34831  1.34832 NaN NaN  0.00016   0.0   0.0       0
+39  GBP_USD 2025-12-23 18:45:00+00:00  1.34834  1.34832 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 13:45:03 Skipping trade - invalid signal or loss
+2025-12-23 13:50:09 CandleManager() new candle: last_candle:25-12-23 18:50 is_ready:False
+2025-12-23 13:50:10 tech_manager: max_rows:40 candle_time: 2025-12-23 18:50:00+00:00 granularity M5
+2025-12-23 13:50:10 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:30:00+00:00  1.34828  1.34807       NaN       NaN  0.00015  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 18:35:00+00:00  1.34832  1.34828       NaN       NaN  0.00018  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 18:40:00+00:00  1.34831  1.34832       NaN       NaN  0.00016  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 18:45:00+00:00  1.34858  1.34832  1.348597  1.348548  0.00017  0.000032  0.000017      -1
+39  GBP_USD 2025-12-23 18:50:00+00:00  1.34861  1.34860       NaN       NaN  0.00020  0.000000  0.000000       0
+2025-12-23 13:50:10 Skipping trade - invalid signal or loss
+2025-12-23 13:55:04 CandleManager() new candle: last_candle:25-12-23 18:55 is_ready:False
+2025-12-23 13:55:04 tech_manager: max_rows:40 candle_time: 2025-12-23 18:55:00+00:00 granularity M5
+2025-12-23 13:55:04 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:35:00+00:00  1.34832  1.34828       NaN       NaN  0.00018  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 18:40:00+00:00  1.34831  1.34832       NaN       NaN  0.00016  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 18:45:00+00:00  1.34858  1.34832  1.348597  1.348548  0.00017  0.000032  0.000017      -1
+38  GBP_USD 2025-12-23 18:50:00+00:00  1.34875  1.34860  1.348782  1.348690  0.00018  0.000060  0.000032      -1
+39  GBP_USD 2025-12-23 18:55:00+00:00  1.34869  1.34874       NaN       NaN  0.00018  0.000000  0.000000       0
+2025-12-23 13:55:04 Skipping trade - invalid signal or loss
+2025-12-23 14:00:10 CandleManager() new candle: last_candle:25-12-23 19:00 is_ready:False
+2025-12-23 14:00:10 tech_manager: max_rows:40 candle_time: 2025-12-23 19:00:00+00:00 granularity M5
+2025-12-23 14:00:10 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:40:00+00:00  1.34831  1.34832       NaN       NaN  0.00016  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 18:45:00+00:00  1.34858  1.34832  1.348597  1.348548  0.00017  0.000032  0.000017      -1
+37  GBP_USD 2025-12-23 18:50:00+00:00  1.34875  1.34860  1.348782  1.348690  0.00018  0.000060  0.000032      -1
+38  GBP_USD 2025-12-23 18:55:00+00:00  1.34895  1.34874  1.349000  1.348855  0.00018  0.000095  0.000050      -1
+39  GBP_USD 2025-12-23 19:00:00+00:00  1.34894  1.34897       NaN       NaN  0.00019  0.000000  0.000000       0
+2025-12-23 14:00:10 Skipping trade - invalid signal or loss
+2025-12-23 14:05:05 CandleManager() new candle: last_candle:25-12-23 19:05 is_ready:False
+2025-12-23 14:05:06 tech_manager: max_rows:40 candle_time: 2025-12-23 19:05:00+00:00 granularity M5
+2025-12-23 14:05:06 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:45:00+00:00  1.34858  1.34832  1.348597  1.348548  0.00017  0.000032  0.000017      -1
+36  GBP_USD 2025-12-23 18:50:00+00:00  1.34875  1.34860  1.348782  1.348690  0.00018  0.000060  0.000032      -1
+37  GBP_USD 2025-12-23 18:55:00+00:00  1.34895  1.34874  1.349000  1.348855  0.00018  0.000095  0.000050      -1
+38  GBP_USD 2025-12-23 19:00:00+00:00  1.34915  1.34897  1.349203  1.349049  0.00018  0.000101  0.000053      -1
+39  GBP_USD 2025-12-23 19:05:00+00:00  1.34926  1.34917  1.349262  1.349257  0.00019  0.000003  0.000002      -1
+2025-12-23 14:05:06 Place Trade: TradeDecision(): GBP_USD, dir: -1, gain: 0.0000, stop_loss: 1.3492617343076867, take_profit: 1.3492567048153952
+2025-12-23 14:05:06 loss=0.0 pips=5.0 units=50000.0
+2025-12-23 14:05:06 Computed trade_units=50000.0 for GBP_USD
+2025-12-23 14:05:06 ERROR placing TradeDecision(): GBP_USD, dir: -1, gain: 0.0000, stop_loss: 1.3492617343076867, take_profit: 1.3492567048153952
+2025-12-23 14:10:02 CandleManager() new candle: last_candle:25-12-23 19:10 is_ready:False
+2025-12-23 14:10:03 tech_manager: max_rows:40 candle_time: 2025-12-23 19:10:00+00:00 granularity M5
+2025-12-23 14:10:03 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:50:00+00:00  1.34875  1.34860  1.348782  1.348690  0.00018  0.000060  0.000032      -1
+36  GBP_USD 2025-12-23 18:55:00+00:00  1.34895  1.34874  1.349000  1.348855  0.00018  0.000095  0.000050      -1
+37  GBP_USD 2025-12-23 19:00:00+00:00  1.34915  1.34897  1.349203  1.349049  0.00018  0.000101  0.000053      -1
+38  GBP_USD 2025-12-23 19:05:00+00:00  1.34955  1.34917  1.349672  1.349317  0.00020  0.000233  0.000122      -1
+39  GBP_USD 2025-12-23 19:10:00+00:00  1.34956  1.34956       NaN       NaN  0.00019  0.000000  0.000000       0
+2025-12-23 14:10:03 Skipping trade - invalid signal or loss
+2025-12-23 14:15:08 CandleManager() new candle: last_candle:25-12-23 19:15 is_ready:False
+2025-12-23 14:15:09 tech_manager: max_rows:40 candle_time: 2025-12-23 19:15:00+00:00 granularity M5
+2025-12-23 14:15:09 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 18:55:00+00:00  1.34895  1.34874  1.349000  1.348855  0.00018  0.000095  0.000050      -1
+36  GBP_USD 2025-12-23 19:00:00+00:00  1.34915  1.34897  1.349203  1.349049  0.00018  0.000101  0.000053      -1
+37  GBP_USD 2025-12-23 19:05:00+00:00  1.34955  1.34917  1.349672  1.349317  0.00020  0.000233  0.000122      -1
+38  GBP_USD 2025-12-23 19:10:00+00:00  1.34968  1.34956  1.349733  1.349580  0.00020  0.000100  0.000053      -1
+39  GBP_USD 2025-12-23 19:15:00+00:00  1.34973  1.34968       NaN       NaN  0.00022  0.000000  0.000000       0
+2025-12-23 14:15:09 Skipping trade - invalid signal or loss
+2025-12-23 14:20:03 CandleManager() new candle: last_candle:25-12-23 19:20 is_ready:False
+2025-12-23 14:20:03 tech_manager: max_rows:40 candle_time: 2025-12-23 19:20:00+00:00 granularity M5
+2025-12-23 14:20:04 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:00:00+00:00  1.34915  1.34897  1.349203  1.349049  0.00018  0.000101  0.000053      -1
+36  GBP_USD 2025-12-23 19:05:00+00:00  1.34955  1.34917  1.349672  1.349317  0.00020  0.000233  0.000122      -1
+37  GBP_USD 2025-12-23 19:10:00+00:00  1.34968  1.34956  1.349733  1.349580  0.00020  0.000100  0.000053      -1
+38  GBP_USD 2025-12-23 19:15:00+00:00  1.34952  1.34968       NaN       NaN  0.00023  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 19:20:00+00:00  1.34951  1.34951       NaN       NaN  0.00020  0.000000  0.000000       0
+2025-12-23 14:20:04 Skipping trade - invalid signal or loss
+2025-12-23 14:25:08 CandleManager() new candle: last_candle:25-12-23 19:25 is_ready:False
+2025-12-23 14:25:08 tech_manager: max_rows:40 candle_time: 2025-12-23 19:25:00+00:00 granularity M5
+2025-12-23 14:25:08 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:05:00+00:00  1.34955  1.34917  1.349672  1.349317  0.00020  0.000233  0.000122      -1
+36  GBP_USD 2025-12-23 19:10:00+00:00  1.34968  1.34956  1.349733  1.349580  0.00020  0.000100  0.000053      -1
+37  GBP_USD 2025-12-23 19:15:00+00:00  1.34952  1.34968       NaN       NaN  0.00023  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 19:20:00+00:00  1.34953  1.34951       NaN       NaN  0.00020  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 19:25:00+00:00  1.34953  1.34954       NaN       NaN  0.00020  0.000000  0.000000       0
+2025-12-23 14:25:08 Skipping trade - invalid signal or loss
+2025-12-23 14:30:03 CandleManager() new candle: last_candle:25-12-23 19:30 is_ready:False
+2025-12-23 14:30:03 tech_manager: max_rows:40 candle_time: 2025-12-23 19:30:00+00:00 granularity M5
+2025-12-23 14:30:03 process_candles:
+       PAIR                      time    mid_c    mid_o        SL       TP   SPREAD    GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:10:00+00:00  1.34968  1.34956  1.349733  1.34958  0.00020  0.0001  0.000053      -1
+36  GBP_USD 2025-12-23 19:15:00+00:00  1.34952  1.34968       NaN      NaN  0.00023  0.0000  0.000000       0
+37  GBP_USD 2025-12-23 19:20:00+00:00  1.34953  1.34951       NaN      NaN  0.00020  0.0000  0.000000       0
+38  GBP_USD 2025-12-23 19:25:00+00:00  1.34924  1.34954       NaN      NaN  0.00020  0.0000  0.000000       0
+39  GBP_USD 2025-12-23 19:30:00+00:00  1.34926  1.34926       NaN      NaN  0.00019  0.0000  0.000000       0
+2025-12-23 14:30:03 Skipping trade - invalid signal or loss
+2025-12-23 14:35:18 CandleManager() new candle: last_candle:25-12-23 19:35 is_ready:False
+2025-12-23 14:35:19 tech_manager: max_rows:40 candle_time: 2025-12-23 19:35:00+00:00 granularity M5
+2025-12-23 14:35:19 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:15:00+00:00  1.34952  1.34968 NaN NaN  0.00023   0.0   0.0       0
+36  GBP_USD 2025-12-23 19:20:00+00:00  1.34953  1.34951 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 19:25:00+00:00  1.34924  1.34954 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 19:30:00+00:00  1.34916  1.34926 NaN NaN  0.00016   0.0   0.0       0
+39  GBP_USD 2025-12-23 19:35:00+00:00  1.34916  1.34916 NaN NaN  0.00015   0.0   0.0       0
+2025-12-23 14:35:19 Skipping trade - invalid signal or loss
+2025-12-23 14:40:04 CandleManager() new candle: last_candle:25-12-23 19:40 is_ready:False
+2025-12-23 14:40:04 tech_manager: max_rows:40 candle_time: 2025-12-23 19:40:00+00:00 granularity M5
+2025-12-23 14:40:04 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:20:00+00:00  1.34953  1.34951 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 19:25:00+00:00  1.34924  1.34954 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 19:30:00+00:00  1.34916  1.34926 NaN NaN  0.00016   0.0   0.0       0
+38  GBP_USD 2025-12-23 19:35:00+00:00  1.34914  1.34916 NaN NaN  0.00015   0.0   0.0       0
+39  GBP_USD 2025-12-23 19:40:00+00:00  1.34912  1.34912 NaN NaN  0.00016   0.0   0.0       0
+2025-12-23 14:40:04 Skipping trade - invalid signal or loss
+2025-12-23 14:45:10 CandleManager() new candle: last_candle:25-12-23 19:45 is_ready:False
+2025-12-23 14:45:10 tech_manager: max_rows:40 candle_time: 2025-12-23 19:45:00+00:00 granularity M5
+2025-12-23 14:45:10 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:25:00+00:00  1.34924  1.34954 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 19:30:00+00:00  1.34916  1.34926 NaN NaN  0.00016   0.0   0.0       0
+37  GBP_USD 2025-12-23 19:35:00+00:00  1.34914  1.34916 NaN NaN  0.00015   0.0   0.0       0
+38  GBP_USD 2025-12-23 19:40:00+00:00  1.34926  1.34912 NaN NaN  0.00015   0.0   0.0       0
+39  GBP_USD 2025-12-23 19:45:00+00:00  1.34925  1.34926 NaN NaN  0.00016   0.0   0.0       0
+2025-12-23 14:45:10 Skipping trade - invalid signal or loss
+2025-12-23 14:50:04 CandleManager() new candle: last_candle:25-12-23 19:50 is_ready:False
+2025-12-23 14:50:05 tech_manager: max_rows:40 candle_time: 2025-12-23 19:50:00+00:00 granularity M5
+2025-12-23 14:50:05 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:30:00+00:00  1.34916  1.34926 NaN NaN  0.00016   0.0   0.0       0
+36  GBP_USD 2025-12-23 19:35:00+00:00  1.34914  1.34916 NaN NaN  0.00015   0.0   0.0       0
+37  GBP_USD 2025-12-23 19:40:00+00:00  1.34926  1.34912 NaN NaN  0.00015   0.0   0.0       0
+38  GBP_USD 2025-12-23 19:45:00+00:00  1.34932  1.34926 NaN NaN  0.00017   0.0   0.0       0
+39  GBP_USD 2025-12-23 19:50:00+00:00  1.34932  1.34932 NaN NaN  0.00018   0.0   0.0       0
+2025-12-23 14:50:05 Skipping trade - invalid signal or loss
+2025-12-23 14:55:10 CandleManager() new candle: last_candle:25-12-23 19:55 is_ready:False
+2025-12-23 14:55:10 tech_manager: max_rows:40 candle_time: 2025-12-23 19:55:00+00:00 granularity M5
+2025-12-23 14:55:10 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:35:00+00:00  1.34914  1.34916 NaN NaN  0.00015   0.0   0.0       0
+36  GBP_USD 2025-12-23 19:40:00+00:00  1.34926  1.34912 NaN NaN  0.00015   0.0   0.0       0
+37  GBP_USD 2025-12-23 19:45:00+00:00  1.34932  1.34926 NaN NaN  0.00017   0.0   0.0       0
+38  GBP_USD 2025-12-23 19:50:00+00:00  1.34955  1.34932 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 19:55:00+00:00  1.34956  1.34956 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 14:55:10 Skipping trade - invalid signal or loss
+2025-12-23 15:00:04 CandleManager() new candle: last_candle:25-12-23 20:00 is_ready:False
+2025-12-23 15:00:04 tech_manager: max_rows:40 candle_time: 2025-12-23 20:00:00+00:00 granularity M5
+2025-12-23 15:00:04 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:40:00+00:00  1.34926  1.34912 NaN NaN  0.00015   0.0   0.0       0
+36  GBP_USD 2025-12-23 19:45:00+00:00  1.34932  1.34926 NaN NaN  0.00017   0.0   0.0       0
+37  GBP_USD 2025-12-23 19:50:00+00:00  1.34955  1.34932 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 19:55:00+00:00  1.34971  1.34956 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:00:00+00:00  1.34968  1.34970 NaN NaN  0.00021   0.0   0.0       0
+2025-12-23 15:00:04 Skipping trade - invalid signal or loss
+2025-12-23 15:05:09 CandleManager() new candle: last_candle:25-12-23 20:05 is_ready:False
+2025-12-23 15:05:09 tech_manager: max_rows:40 candle_time: 2025-12-23 20:05:00+00:00 granularity M5
+2025-12-23 15:05:09 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:45:00+00:00  1.34932  1.34926 NaN NaN  0.00017   0.0   0.0       0
+36  GBP_USD 2025-12-23 19:50:00+00:00  1.34955  1.34932 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 19:55:00+00:00  1.34971  1.34956 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:00:00+00:00  1.34950  1.34970 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:05:00+00:00  1.34956  1.34950 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 15:05:09 Skipping trade - invalid signal or loss
+2025-12-23 15:10:05 CandleManager() new candle: last_candle:25-12-23 20:10 is_ready:False
+2025-12-23 15:10:06 tech_manager: max_rows:40 candle_time: 2025-12-23 20:10:00+00:00 granularity M5
+2025-12-23 15:10:06 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:50:00+00:00  1.34955  1.34932 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 19:55:00+00:00  1.34971  1.34956 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:00:00+00:00  1.34950  1.34970 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:05:00+00:00  1.34972  1.34950 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:10:00+00:00  1.34970  1.34972 NaN NaN  0.00016   0.0   0.0       0
+2025-12-23 15:10:06 Skipping trade - invalid signal or loss
+2025-12-23 15:15:11 CandleManager() new candle: last_candle:25-12-23 20:15 is_ready:False
+2025-12-23 15:15:11 tech_manager: max_rows:40 candle_time: 2025-12-23 20:15:00+00:00 granularity M5
+2025-12-23 15:15:12 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 19:55:00+00:00  1.34971  1.34956 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 20:00:00+00:00  1.34950  1.34970 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:05:00+00:00  1.34972  1.34950 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:10:00+00:00  1.34983  1.34972 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:15:00+00:00  1.34985  1.34984 NaN NaN  0.00018   0.0   0.0       0
+2025-12-23 15:15:12 Skipping trade - invalid signal or loss
+2025-12-23 15:20:07 CandleManager() new candle: last_candle:25-12-23 20:20 is_ready:False
+2025-12-23 15:20:08 tech_manager: max_rows:40 candle_time: 2025-12-23 20:20:00+00:00 granularity M5
+2025-12-23 15:20:08 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:00:00+00:00  1.34950  1.34970 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 20:05:00+00:00  1.34972  1.34950 NaN NaN  0.00018   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:10:00+00:00  1.34983  1.34972 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:15:00+00:00  1.34992  1.34984 NaN NaN  0.00019   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:20:00+00:00  1.34987  1.34992 NaN NaN  0.00020   0.0   0.0       0
+2025-12-23 15:20:08 Skipping trade - invalid signal or loss
+2025-12-23 15:25:02 CandleManager() new candle: last_candle:25-12-23 20:25 is_ready:False
+2025-12-23 15:25:03 tech_manager: max_rows:40 candle_time: 2025-12-23 20:25:00+00:00 granularity M5
+2025-12-23 15:25:03 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:05:00+00:00  1.34972  1.34950 NaN NaN  0.00018   0.0   0.0       0
+36  GBP_USD 2025-12-23 20:10:00+00:00  1.34983  1.34972 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:15:00+00:00  1.34992  1.34984 NaN NaN  0.00019   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:20:00+00:00  1.34980  1.34992 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:25:00+00:00  1.34984  1.34980 NaN NaN  0.00021   0.0   0.0       0
+2025-12-23 15:25:03 Skipping trade - invalid signal or loss
+2025-12-23 15:30:06 CandleManager() new candle: last_candle:25-12-23 20:30 is_ready:False
+2025-12-23 15:30:07 tech_manager: max_rows:40 candle_time: 2025-12-23 20:30:00+00:00 granularity M5
+2025-12-23 15:30:07 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:10:00+00:00  1.34983  1.34972 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 20:15:00+00:00  1.34992  1.34984 NaN NaN  0.00019   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:20:00+00:00  1.34980  1.34992 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:25:00+00:00  1.34981  1.34980 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:30:00+00:00  1.34980  1.34982 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 15:30:07 Skipping trade - invalid signal or loss
+2025-12-23 15:35:01 CandleManager() new candle: last_candle:25-12-23 20:35 is_ready:False
+2025-12-23 15:35:02 tech_manager: max_rows:40 candle_time: 2025-12-23 20:35:00+00:00 granularity M5
+2025-12-23 15:35:02 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:15:00+00:00  1.34992  1.34984 NaN NaN  0.00019   0.0   0.0       0
+36  GBP_USD 2025-12-23 20:20:00+00:00  1.34980  1.34992 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:25:00+00:00  1.34981  1.34980 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:30:00+00:00  1.34981  1.34982 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:35:00+00:00  1.34982  1.34982 NaN NaN  0.00020   0.0   0.0       0
+2025-12-23 15:35:02 Skipping trade - invalid signal or loss
+2025-12-23 15:40:07 CandleManager() new candle: last_candle:25-12-23 20:40 is_ready:False
+2025-12-23 15:40:07 tech_manager: max_rows:40 candle_time: 2025-12-23 20:40:00+00:00 granularity M5
+2025-12-23 15:40:08 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:20:00+00:00  1.34980  1.34992 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 20:25:00+00:00  1.34981  1.34980 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:30:00+00:00  1.34981  1.34982 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:35:00+00:00  1.34999  1.34982 NaN NaN  0.00020   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:40:00+00:00  1.35002  1.35000 NaN NaN  0.00021   0.0   0.0       0
+2025-12-23 15:40:08 Skipping trade - invalid signal or loss
+2025-12-23 15:45:02 CandleManager() new candle: last_candle:25-12-23 20:45 is_ready:False
+2025-12-23 15:45:03 tech_manager: max_rows:40 candle_time: 2025-12-23 20:45:00+00:00 granularity M5
+2025-12-23 15:45:03 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:25:00+00:00  1.34981  1.34980 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 20:30:00+00:00  1.34981  1.34982 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:35:00+00:00  1.34999  1.34982 NaN NaN  0.00020   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:40:00+00:00  1.34994  1.35000 NaN NaN  0.00018   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:45:00+00:00  1.34994  1.34994 NaN NaN  0.00019   0.0   0.0       0
+2025-12-23 15:45:03 Skipping trade - invalid signal or loss
+2025-12-23 15:50:08 CandleManager() new candle: last_candle:25-12-23 20:50 is_ready:False
+2025-12-23 15:50:09 tech_manager: max_rows:40 candle_time: 2025-12-23 20:50:00+00:00 granularity M5
+2025-12-23 15:50:09 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:30:00+00:00  1.34981  1.34982 NaN NaN  0.00020   0.0   0.0       0
+36  GBP_USD 2025-12-23 20:35:00+00:00  1.34999  1.34982 NaN NaN  0.00020   0.0   0.0       0
+37  GBP_USD 2025-12-23 20:40:00+00:00  1.34994  1.35000 NaN NaN  0.00018   0.0   0.0       0
+38  GBP_USD 2025-12-23 20:45:00+00:00  1.34990  1.34994 NaN NaN  0.00017   0.0   0.0       0
+39  GBP_USD 2025-12-23 20:50:00+00:00  1.34986  1.34990 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 15:50:09 Skipping trade - invalid signal or loss
+2025-12-23 15:55:05 CandleManager() new candle: last_candle:25-12-23 20:55 is_ready:False
+2025-12-23 15:55:06 tech_manager: max_rows:40 candle_time: 2025-12-23 20:55:00+00:00 granularity M5
+2025-12-23 15:55:06 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:35:00+00:00  1.34999  1.34982  None  None  0.00020   0.0  0.0       0
+36  GBP_USD 2025-12-23 20:40:00+00:00  1.34994  1.35000  None  None  0.00018   0.0  0.0       0
+37  GBP_USD 2025-12-23 20:45:00+00:00  1.34990  1.34994  None  None  0.00017   0.0  0.0       0
+38  GBP_USD 2025-12-23 20:50:00+00:00  1.34978  1.34990  None  None  0.00017   0.0  0.0       0
+39  GBP_USD 2025-12-23 20:55:00+00:00  1.34977  1.34977  None  None  0.00018   0.0  0.0       0
+2025-12-23 15:55:06 Skipping trade - invalid signal or loss
+2025-12-23 16:00:11 CandleManager() new candle: last_candle:25-12-23 21:00 is_ready:False
+2025-12-23 16:00:11 tech_manager: max_rows:40 candle_time: 2025-12-23 21:00:00+00:00 granularity M5
+2025-12-23 16:00:11 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:40:00+00:00  1.34994  1.35000  None  None  0.00018   0.0  0.0       0
+36  GBP_USD 2025-12-23 20:45:00+00:00  1.34990  1.34994  None  None  0.00017   0.0  0.0       0
+37  GBP_USD 2025-12-23 20:50:00+00:00  1.34978  1.34990  None  None  0.00017   0.0  0.0       0
+38  GBP_USD 2025-12-23 20:55:00+00:00  1.34993  1.34977  None  None  0.00018   0.0  0.0       0
+39  GBP_USD 2025-12-23 21:00:00+00:00  1.34990  1.34994  None  None  0.00021   0.0  0.0       0
+2025-12-23 16:00:11 Skipping trade - invalid signal or loss
+2025-12-23 16:05:06 CandleManager() new candle: last_candle:25-12-23 21:05 is_ready:False
+2025-12-23 16:05:06 tech_manager: max_rows:40 candle_time: 2025-12-23 21:05:00+00:00 granularity M5
+2025-12-23 16:05:06 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:45:00+00:00  1.34990  1.34994  None  None  0.00017   0.0  0.0       0
+36  GBP_USD 2025-12-23 20:50:00+00:00  1.34978  1.34990  None  None  0.00017   0.0  0.0       0
+37  GBP_USD 2025-12-23 20:55:00+00:00  1.34993  1.34977  None  None  0.00018   0.0  0.0       0
+38  GBP_USD 2025-12-23 21:00:00+00:00  1.35010  1.34994  None  None  0.00019   0.0  0.0       0
+39  GBP_USD 2025-12-23 21:05:00+00:00  1.35014  1.35012  None  None  0.00018   0.0  0.0       0
+2025-12-23 16:05:06 Skipping trade - invalid signal or loss
+2025-12-23 16:10:11 CandleManager() new candle: last_candle:25-12-23 21:10 is_ready:False
+2025-12-23 16:10:11 tech_manager: max_rows:40 candle_time: 2025-12-23 21:10:00+00:00 granularity M5
+2025-12-23 16:10:12 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:50:00+00:00  1.34978  1.34990       NaN       NaN  0.00017  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 20:55:00+00:00  1.34993  1.34977       NaN       NaN  0.00018  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 21:00:00+00:00  1.35010  1.34994       NaN       NaN  0.00019  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 21:05:00+00:00  1.35032  1.35012  1.350333  1.350295  0.00019  0.000025  0.000013      -1
+39  GBP_USD 2025-12-23 21:10:00+00:00  1.35030  1.35030       NaN       NaN  0.00021  0.000000  0.000000       0
+2025-12-23 16:10:12 Skipping trade - invalid signal or loss
+2025-12-23 16:15:05 CandleManager() new candle: last_candle:25-12-23 21:15 is_ready:False
+2025-12-23 16:15:06 tech_manager: max_rows:40 candle_time: 2025-12-23 21:15:00+00:00 granularity M5
+2025-12-23 16:15:06 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 20:55:00+00:00  1.34993  1.34977       NaN       NaN  0.00018  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 21:00:00+00:00  1.35010  1.34994       NaN       NaN  0.00019  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 21:05:00+00:00  1.35032  1.35012  1.350333  1.350295  0.00019  0.000025  0.000013      -1
+38  GBP_USD 2025-12-23 21:10:00+00:00  1.35027  1.35030       NaN       NaN  0.00022  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 21:15:00+00:00  1.35026  1.35028       NaN       NaN  0.00021  0.000000  0.000000       0
+2025-12-23 16:15:06 Skipping trade - invalid signal or loss
+2025-12-23 16:20:10 CandleManager() new candle: last_candle:25-12-23 21:20 is_ready:False
+2025-12-23 16:20:10 tech_manager: max_rows:40 candle_time: 2025-12-23 21:20:00+00:00 granularity M5
+2025-12-23 16:20:10 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 21:00:00+00:00  1.35010  1.34994       NaN       NaN  0.00019  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 21:05:00+00:00  1.35032  1.35012  1.350333  1.350295  0.00019  0.000025  0.000013      -1
+37  GBP_USD 2025-12-23 21:10:00+00:00  1.35027  1.35030       NaN       NaN  0.00022  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 21:15:00+00:00  1.35028  1.35028       NaN       NaN  0.00021  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 21:20:00+00:00  1.35034  1.35030       NaN       NaN  0.00021  0.000000  0.000000       0
+2025-12-23 16:20:10 Skipping trade - invalid signal or loss
+2025-12-23 16:25:05 CandleManager() new candle: last_candle:25-12-23 21:25 is_ready:False
+2025-12-23 16:25:05 tech_manager: max_rows:40 candle_time: 2025-12-23 21:25:00+00:00 granularity M5
+2025-12-23 16:25:05 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 21:05:00+00:00  1.35032  1.35012  1.350333  1.350295  0.00019  0.000025  0.000013      -1
+36  GBP_USD 2025-12-23 21:10:00+00:00  1.35027  1.35030       NaN       NaN  0.00022  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 21:15:00+00:00  1.35028  1.35028       NaN       NaN  0.00021  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 21:20:00+00:00  1.35010  1.35030       NaN       NaN  0.00018  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 21:25:00+00:00  1.35018  1.35010       NaN       NaN  0.00020  0.000000  0.000000       0
+2025-12-23 16:25:05 Skipping trade - invalid signal or loss
+2025-12-23 16:30:02 CandleManager() new candle: last_candle:25-12-23 21:30 is_ready:False
+2025-12-23 16:30:02 tech_manager: max_rows:40 candle_time: 2025-12-23 21:30:00+00:00 granularity M5
+2025-12-23 16:30:02 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 21:10:00+00:00  1.35027  1.35030       NaN       NaN  0.00022  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 21:15:00+00:00  1.35028  1.35028       NaN       NaN  0.00021  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 21:20:00+00:00  1.35010  1.35030       NaN       NaN  0.00018  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 21:25:00+00:00  1.35064  1.35010  1.350746  1.350438  0.00022  0.000202  0.000106      -1
+39  GBP_USD 2025-12-23 21:30:00+00:00  1.35065  1.35064       NaN       NaN  0.00022  0.000000  0.000000       0
+2025-12-23 16:30:02 Skipping trade - invalid signal or loss
+2025-12-23 16:35:07 CandleManager() new candle: last_candle:25-12-23 21:35 is_ready:False
+2025-12-23 16:35:07 tech_manager: max_rows:40 candle_time: 2025-12-23 21:35:00+00:00 granularity M5
+2025-12-23 16:35:07 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 21:15:00+00:00  1.35028  1.35028       NaN       NaN  0.00021  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 21:20:00+00:00  1.35010  1.35030       NaN       NaN  0.00018  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 21:25:00+00:00  1.35064  1.35010  1.350746  1.350438  0.00022  0.000202  0.000106      -1
+38  GBP_USD 2025-12-23 21:30:00+00:00  1.35121  1.35064  1.351491  1.350676  0.00018  0.000534  0.000281      -1
+39  GBP_USD 2025-12-23 21:35:00+00:00  1.35121  1.35122       NaN       NaN  0.00018  0.000000  0.000000       0
+2025-12-23 16:35:07 Skipping trade - invalid signal or loss
+2025-12-23 16:40:02 CandleManager() new candle: last_candle:25-12-23 21:40 is_ready:False
+2025-12-23 16:40:02 tech_manager: max_rows:40 candle_time: 2025-12-23 21:40:00+00:00 granularity M5
+2025-12-23 16:40:02 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 21:20:00+00:00  1.35010  1.35030       NaN       NaN  0.00018  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 21:25:00+00:00  1.35064  1.35010  1.350746  1.350438  0.00022  0.000202  0.000106      -1
+37  GBP_USD 2025-12-23 21:30:00+00:00  1.35121  1.35064  1.351491  1.350676  0.00018  0.000534  0.000281      -1
+38  GBP_USD 2025-12-23 21:35:00+00:00  1.35156  1.35122       NaN       NaN  0.00021  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 21:40:00+00:00  1.35160  1.35158       NaN       NaN  0.00017  0.000000  0.000000       0
+2025-12-23 16:40:02 Skipping trade - invalid signal or loss
+2025-12-23 16:45:13 CandleManager() new candle: last_candle:25-12-23 21:45 is_ready:False
+2025-12-23 16:45:14 tech_manager: max_rows:40 candle_time: 2025-12-23 21:45:00+00:00 granularity M5
+2025-12-23 16:45:14 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 21:25:00+00:00  1.35064  1.35010  1.350746  1.350438  0.00022  0.000202  0.000106      -1
+36  GBP_USD 2025-12-23 21:30:00+00:00  1.35121  1.35064  1.351491  1.350676  0.00018  0.000534  0.000281      -1
+37  GBP_USD 2025-12-23 21:35:00+00:00  1.35156  1.35122       NaN       NaN  0.00021  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 21:40:00+00:00  1.35184  1.35158       NaN       NaN  0.00017  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 21:45:00+00:00  1.35184  1.35184       NaN       NaN  0.00017  0.000000  0.000000       0
+2025-12-23 16:45:14 Skipping trade - invalid signal or loss
+2025-12-23 16:50:07 CandleManager() new candle: last_candle:25-12-23 21:50 is_ready:False
+2025-12-23 16:50:07 tech_manager: max_rows:40 candle_time: 2025-12-23 21:50:00+00:00 granularity M5
+2025-12-23 16:50:07 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 21:30:00+00:00  1.35121  1.35064  1.351491  1.350676  0.00018  0.000534  0.000281      -1
+36  GBP_USD 2025-12-23 21:35:00+00:00  1.35156  1.35122       NaN       NaN  0.00021  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 21:40:00+00:00  1.35184  1.35158       NaN       NaN  0.00017  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 21:45:00+00:00  1.35193  1.35184       NaN       NaN  0.00016  0.000000  0.000000       0
+39  GBP_USD 2025-12-23 21:50:00+00:00  1.35192  1.35192       NaN       NaN  0.00016  0.000000  0.000000       0
+2025-12-23 16:50:07 Skipping trade - invalid signal or loss
+2025-12-23 16:55:01 CandleManager() new candle: last_candle:25-12-23 21:55 is_ready:False
+2025-12-23 16:55:01 tech_manager: max_rows:40 candle_time: 2025-12-23 21:55:00+00:00 granularity M5
+2025-12-23 16:55:01 process_candles:
+       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN      LOSS  SIGNAL
+35  GBP_USD 2025-12-23 21:35:00+00:00  1.35156  1.35122       NaN       NaN  0.00021  0.000000  0.000000       0
+36  GBP_USD 2025-12-23 21:40:00+00:00  1.35184  1.35158       NaN       NaN  0.00017  0.000000  0.000000       0
+37  GBP_USD 2025-12-23 21:45:00+00:00  1.35193  1.35184       NaN       NaN  0.00016  0.000000  0.000000       0
+38  GBP_USD 2025-12-23 21:50:00+00:00  1.35235  1.35192  1.352537  1.351995  0.00020  0.000355  0.000187      -1
+39  GBP_USD 2025-12-23 21:55:00+00:00  1.35233  1.35234       NaN       NaN  0.00022  0.000000  0.000000       0
+2025-12-23 16:55:01 Skipping trade - invalid signal or loss

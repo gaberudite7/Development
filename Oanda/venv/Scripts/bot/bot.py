@@ -13,7 +13,7 @@ class Bot:
 
     ERROR_LOG = "error"
     MAIN_LOG = "main"
-    GRANULARITY = "M1"
+    GRANULARITY = "M5"
     SLEEP = 10
 
     def __init__(self):
@@ -57,9 +57,17 @@ class Bot:
                 last_time = self.candle_manager.timings[p].last_time
                 trade_decision = get_trade_decision(last_time, p, Bot.GRANULARITY, self.api, 
                                                     self.trade_settings[p], self.log_message)
+                # stops invalid trades: 
+                if trade_decision.signal == defs.NONE or trade_decision.loss <=0:
+                    self.log_message("Skipping trade - invalid signal or loss", trade_decision.pair)
+                    return None
+                #for debugg print trade_decision.signal
+                print(f"trade decision: {trade_decision}")
+                print(f"trade decision signal is: {trade_decision.signal}")
                 if trade_decision is not None and trade_decision.signal != defs.NONE:
                     self.log_message(f"Place Trade: {trade_decision}", p)
                     self.log_to_main(f"Place Trade: {trade_decision}")
+                    print(f"Placing trade...{trade_decision}")
                     try:
                         place_trade(trade_decision, self.api, self.log_message, self.log_to_error, self.trade_risk)
                     except Exception as e:

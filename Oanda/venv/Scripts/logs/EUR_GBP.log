@@ -1,76 +1,206 @@
-2025-12-04 21:55:24 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/EUR_GBP.log
-2025-12-04 21:55:24 {'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0014, 'riskreward': 1.3}
-2025-12-04 21:55:25 CandleManager() init last_candle: last_candle:25-12-05 02:55 is_ready:False
-2025-12-04 21:56:07 CandleManager() new candle: last_candle:25-12-05 02:56 is_ready:False
-2025-12-04 21:56:08 tech_manager: max_rows:32 candle_time: 2025-12-05 02:56:00+00:00 granularity M1
-2025-12-04 21:56:08 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_GBP 2025-12-05 02:52:00+00:00  0.87400  0.87399  0.0  0.0  0.00017  0.000021       0
-28  EUR_GBP 2025-12-05 02:53:00+00:00  0.87400  0.87400  0.0  0.0  0.00016  0.000017       0
-29  EUR_GBP 2025-12-05 02:54:00+00:00  0.87400  0.87400  0.0  0.0  0.00015  0.000012       0
-30  EUR_GBP 2025-12-05 02:55:00+00:00  0.87399  0.87400  0.0  0.0  0.00016  0.000002       0
-31  EUR_GBP 2025-12-05 02:56:00+00:00  0.87400  0.87400  0.0  0.0  0.00015  0.000004       0
-2025-12-04 21:57:21 CandleManager() new candle: last_candle:25-12-05 02:57 is_ready:False
-2025-12-04 21:57:22 tech_manager: max_rows:32 candle_time: 2025-12-05 02:57:00+00:00 granularity M1
-2025-12-04 21:57:22 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_GBP 2025-12-05 02:53:00+00:00  0.87400  0.87400  0.0  0.0  0.00016  0.000017       0
-28  EUR_GBP 2025-12-05 02:54:00+00:00  0.87400  0.87400  0.0  0.0  0.00015  0.000012       0
-29  EUR_GBP 2025-12-05 02:55:00+00:00  0.87399  0.87400  0.0  0.0  0.00016  0.000002       0
-30  EUR_GBP 2025-12-05 02:56:00+00:00  0.87398  0.87400  0.0  0.0  0.00016  0.000015       0
-31  EUR_GBP 2025-12-05 02:57:00+00:00  0.87401  0.87402  0.0  0.0  0.00016  0.000012       0
-2025-12-04 21:58:04 CandleManager() new candle: last_candle:25-12-05 02:58 is_ready:False
-2025-12-04 21:58:04 tech_manager: max_rows:32 candle_time: 2025-12-05 02:58:00+00:00 granularity M1
-2025-12-04 21:58:04 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_GBP 2025-12-05 02:54:00+00:00  0.87400  0.87400  0.0  0.0  0.00015  0.000012       0
-28  EUR_GBP 2025-12-05 02:55:00+00:00  0.87399  0.87400  0.0  0.0  0.00016  0.000002       0
-29  EUR_GBP 2025-12-05 02:56:00+00:00  0.87398  0.87400  0.0  0.0  0.00016  0.000015       0
-30  EUR_GBP 2025-12-05 02:57:00+00:00  0.87400  0.87402  0.0  0.0  0.00014  0.000003       0
-31  EUR_GBP 2025-12-05 02:58:00+00:00  0.87401  0.87400  0.0  0.0  0.00014  0.000010       0
-2025-12-04 21:59:49 CandleManager() new candle: last_candle:25-12-05 02:59 is_ready:False
-2025-12-04 21:59:49 tech_manager: max_rows:32 candle_time: 2025-12-05 02:59:00+00:00 granularity M1
-2025-12-04 21:59:49 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  EUR_GBP 2025-12-05 02:55:00+00:00  0.87399  0.87400  0.000000  0.000000  0.00016  0.000002       0
-28  EUR_GBP 2025-12-05 02:56:00+00:00  0.87398  0.87400  0.000000  0.000000  0.00016  0.000015       0
-29  EUR_GBP 2025-12-05 02:57:00+00:00  0.87400  0.87402  0.000000  0.000000  0.00014  0.000002       0
-30  EUR_GBP 2025-12-05 02:58:00+00:00  0.87398  0.87400  0.873965  0.873999  0.00015  0.000019       1
-31  EUR_GBP 2025-12-05 02:59:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00015  0.000018       0
-2025-12-04 22:00:31 CandleManager() new candle: last_candle:25-12-05 03:00 is_ready:False
-2025-12-04 22:00:31 tech_manager: max_rows:32 candle_time: 2025-12-05 03:00:00+00:00 granularity M1
-2025-12-04 22:00:31 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  EUR_GBP 2025-12-05 02:56:00+00:00  0.87398  0.87400  0.000000  0.000000  0.00016  0.000015       0
-28  EUR_GBP 2025-12-05 02:57:00+00:00  0.87400  0.87402  0.000000  0.000000  0.00014  0.000003       0
-29  EUR_GBP 2025-12-05 02:58:00+00:00  0.87398  0.87400  0.873965  0.873999  0.00015  0.000019       1
-30  EUR_GBP 2025-12-05 02:59:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00015  0.000018       0
-31  EUR_GBP 2025-12-05 03:00:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00015  0.000016       0
-2025-12-04 22:01:14 CandleManager() new candle: last_candle:25-12-05 03:01 is_ready:False
-2025-12-04 22:01:14 tech_manager: max_rows:32 candle_time: 2025-12-05 03:01:00+00:00 granularity M1
-2025-12-04 22:01:14 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  EUR_GBP 2025-12-05 02:57:00+00:00  0.87400  0.87402  0.000000  0.000000  0.00014  0.000002       0
-28  EUR_GBP 2025-12-05 02:58:00+00:00  0.87398  0.87400  0.873965  0.873999  0.00015  0.000019       1
-29  EUR_GBP 2025-12-05 02:59:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00015  0.000018       0
-30  EUR_GBP 2025-12-05 03:00:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00013  0.000017       0
-31  EUR_GBP 2025-12-05 03:01:00+00:00  0.87397  0.87398  0.873952  0.873993  0.00014  0.000023       1
-2025-12-04 22:01:14 Place Trade: TradeDecision(): EUR_GBP, dir: 1, gain: 0.0000, stop_loss: 0.8739520512820513, take_profit: 0.8739933333333333
-2025-12-04 22:02:06 CandleManager() new candle: last_candle:25-12-05 03:02 is_ready:False
-2025-12-04 22:02:06 tech_manager: max_rows:32 candle_time: 2025-12-05 03:02:00+00:00 granularity M1
-2025-12-04 22:02:06 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  EUR_GBP 2025-12-05 02:58:00+00:00  0.87398  0.87400  0.873965  0.873999  0.00015  0.000019       1
-28  EUR_GBP 2025-12-05 02:59:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00015  0.000018       0
-29  EUR_GBP 2025-12-05 03:00:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00013  0.000017       0
-30  EUR_GBP 2025-12-05 03:01:00+00:00  0.87396  0.87398  0.873935  0.873993  0.00015  0.000033       1
-31  EUR_GBP 2025-12-05 03:02:00+00:00  0.87397  0.87397  0.000000  0.000000  0.00014  0.000020       0
-2025-12-04 22:03:10 CandleManager() new candle: last_candle:25-12-05 03:03 is_ready:False
-2025-12-04 22:03:11 tech_manager: max_rows:32 candle_time: 2025-12-05 03:03:00+00:00 granularity M1
-2025-12-04 22:03:11 process_candles:
-       PAIR                      time    mid_c    mid_o        SL        TP   SPREAD      GAIN  SIGNAL
-27  EUR_GBP 2025-12-05 02:59:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00015  0.000018       0
-28  EUR_GBP 2025-12-05 03:00:00+00:00  0.87398  0.87399  0.000000  0.000000  0.00013  0.000017       0
-29  EUR_GBP 2025-12-05 03:01:00+00:00  0.87396  0.87398  0.873935  0.873993  0.00015  0.000033       1
-30  EUR_GBP 2025-12-05 03:02:00+00:00  0.87401  0.87397  0.000000  0.000000  0.00014  0.000018       0
-31  EUR_GBP 2025-12-05 03:03:00+00:00  0.87400  0.87400  0.000000  0.000000  0.00015  0.000008       0
+2025-12-23 08:19:33 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/EUR_GBP.log
+2025-12-23 08:19:33 {'n_ma': 20, 'n_std': 2.0, 'maxspread': 0.00035, 'mingain': 0.00055, 'riskreward': 1.9}
+2025-12-23 08:19:36 CandleManager() init last_candle: last_candle:25-12-23 13:15 is_ready:False
+2025-12-23 08:20:08 CandleManager() new candle: last_candle:25-12-23 13:20 is_ready:False
+2025-12-23 08:25:02 CandleManager() new candle: last_candle:25-12-23 13:25 is_ready:False
+2025-12-23 08:30:05 CandleManager() new candle: last_candle:25-12-23 13:30 is_ready:False
+2025-12-23 08:35:12 CandleManager() new candle: last_candle:25-12-23 13:35 is_ready:False
+2025-12-23 08:40:06 CandleManager() new candle: last_candle:25-12-23 13:40 is_ready:False
+2025-12-23 08:45:11 CandleManager() new candle: last_candle:25-12-23 13:45 is_ready:False
+2025-12-23 08:50:05 CandleManager() new candle: last_candle:25-12-23 13:50 is_ready:False
+2025-12-23 08:55:12 CandleManager() new candle: last_candle:25-12-23 13:55 is_ready:False
+2025-12-23 09:00:05 CandleManager() new candle: last_candle:25-12-23 14:00 is_ready:False
+2025-12-23 09:05:10 CandleManager() new candle: last_candle:25-12-23 14:05 is_ready:False
+2025-12-23 09:10:06 CandleManager() new candle: last_candle:25-12-23 14:10 is_ready:False
+2025-12-23 09:15:10 CandleManager() new candle: last_candle:25-12-23 14:15 is_ready:False
+2025-12-23 09:20:04 CandleManager() new candle: last_candle:25-12-23 14:20 is_ready:False
+2025-12-23 09:25:02 CandleManager() new candle: last_candle:25-12-23 14:25 is_ready:False
+2025-12-23 09:30:08 CandleManager() new candle: last_candle:25-12-23 14:30 is_ready:False
+2025-12-23 09:35:06 CandleManager() new candle: last_candle:25-12-23 14:35 is_ready:False
+2025-12-23 09:40:04 CandleManager() new candle: last_candle:25-12-23 14:40 is_ready:False
+2025-12-23 09:45:09 CandleManager() new candle: last_candle:25-12-23 14:45 is_ready:False
+2025-12-23 09:50:03 CandleManager() new candle: last_candle:25-12-23 14:50 is_ready:False
+2025-12-23 09:55:10 CandleManager() new candle: last_candle:25-12-23 14:55 is_ready:False
+2025-12-23 10:00:06 CandleManager() new candle: last_candle:25-12-23 15:00 is_ready:False
+2025-12-23 10:05:01 CandleManager() new candle: last_candle:25-12-23 15:05 is_ready:False
+2025-12-23 10:10:07 CandleManager() new candle: last_candle:25-12-23 15:10 is_ready:False
+2025-12-23 10:15:11 CandleManager() new candle: last_candle:25-12-23 15:15 is_ready:False
+2025-12-23 10:20:06 CandleManager() new candle: last_candle:25-12-23 15:20 is_ready:False
+2025-12-23 10:25:10 CandleManager() new candle: last_candle:25-12-23 15:25 is_ready:False
+2025-12-23 10:30:06 CandleManager() new candle: last_candle:25-12-23 15:30 is_ready:False
+2025-12-23 10:35:12 CandleManager() new candle: last_candle:25-12-23 15:35 is_ready:False
+2025-12-23 10:40:08 CandleManager() new candle: last_candle:25-12-23 15:40 is_ready:False
+2025-12-23 10:45:03 CandleManager() new candle: last_candle:25-12-23 15:45 is_ready:False
+2025-12-23 10:50:07 CandleManager() new candle: last_candle:25-12-23 15:50 is_ready:False
+2025-12-23 10:55:04 CandleManager() new candle: last_candle:25-12-23 15:55 is_ready:False
+2025-12-23 11:00:02 CandleManager() new candle: last_candle:25-12-23 16:00 is_ready:False
+2025-12-23 11:05:05 CandleManager() new candle: last_candle:25-12-23 16:05 is_ready:False
+2025-12-23 11:10:11 CandleManager() new candle: last_candle:25-12-23 16:10 is_ready:False
+2025-12-23 11:15:05 CandleManager() new candle: last_candle:25-12-23 16:15 is_ready:False
+2025-12-23 11:20:09 CandleManager() new candle: last_candle:25-12-23 16:20 is_ready:False
+2025-12-23 11:25:04 CandleManager() new candle: last_candle:25-12-23 16:25 is_ready:False
+2025-12-23 11:30:09 CandleManager() new candle: last_candle:25-12-23 16:30 is_ready:False
+2025-12-23 11:35:04 CandleManager() new candle: last_candle:25-12-23 16:35 is_ready:False
+2025-12-23 11:40:08 CandleManager() new candle: last_candle:25-12-23 16:40 is_ready:False
+2025-12-23 11:45:01 CandleManager() new candle: last_candle:25-12-23 16:45 is_ready:False
+2025-12-23 11:50:07 CandleManager() new candle: last_candle:25-12-23 16:50 is_ready:False
+2025-12-23 11:55:12 CandleManager() new candle: last_candle:25-12-23 16:55 is_ready:False
+2025-12-23 11:55:12 tech_manager: max_rows:40 candle_time: 2025-12-23 16:55:00+00:00 granularity M5
+2025-12-23 11:55:12 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 16:35:00+00:00  0.87342  0.87344 NaN NaN  0.00012   0.0   0.0       0
+36  EUR_GBP 2025-12-23 16:40:00+00:00  0.87333  0.87344 NaN NaN  0.00012   0.0   0.0       0
+37  EUR_GBP 2025-12-23 16:45:00+00:00  0.87341  0.87333 NaN NaN  0.00012   0.0   0.0       0
+38  EUR_GBP 2025-12-23 16:50:00+00:00  0.87346  0.87342 NaN NaN  0.00013   0.0   0.0       0
+39  EUR_GBP 2025-12-23 16:55:00+00:00  0.87344  0.87344 NaN NaN  0.00013   0.0   0.0       0
+2025-12-23 11:55:12 Skipping trade - invalid signal or loss
+2025-12-23 12:00:18 CandleManager() new candle: last_candle:25-12-23 17:00 is_ready:False
+2025-12-23 12:00:18 tech_manager: max_rows:40 candle_time: 2025-12-23 17:00:00+00:00 granularity M5
+2025-12-23 12:00:18 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 16:40:00+00:00  0.87333  0.87344 NaN NaN  0.00012   0.0   0.0       0
+36  EUR_GBP 2025-12-23 16:45:00+00:00  0.87341  0.87333 NaN NaN  0.00012   0.0   0.0       0
+37  EUR_GBP 2025-12-23 16:50:00+00:00  0.87346  0.87342 NaN NaN  0.00013   0.0   0.0       0
+38  EUR_GBP 2025-12-23 16:55:00+00:00  0.87330  0.87344 NaN NaN  0.00011   0.0   0.0       0
+39  EUR_GBP 2025-12-23 17:00:00+00:00  0.87338  0.87332 NaN NaN  0.00011   0.0   0.0       0
+2025-12-23 12:00:18 Skipping trade - invalid signal or loss
+2025-12-23 12:05:13 CandleManager() new candle: last_candle:25-12-23 17:05 is_ready:False
+2025-12-23 12:10:07 CandleManager() new candle: last_candle:25-12-23 17:10 is_ready:False
+2025-12-23 12:15:02 CandleManager() new candle: last_candle:25-12-23 17:15 is_ready:False
+2025-12-23 12:20:07 CandleManager() new candle: last_candle:25-12-23 17:20 is_ready:False
+2025-12-23 12:25:03 CandleManager() new candle: last_candle:25-12-23 17:25 is_ready:False
+2025-12-23 12:30:08 CandleManager() new candle: last_candle:25-12-23 17:30 is_ready:False
+2025-12-23 12:35:03 CandleManager() new candle: last_candle:25-12-23 17:35 is_ready:False
+2025-12-23 12:40:07 CandleManager() new candle: last_candle:25-12-23 17:40 is_ready:False
+2025-12-23 12:45:01 CandleManager() new candle: last_candle:25-12-23 17:45 is_ready:False
+2025-12-23 12:50:27 CandleManager() new candle: last_candle:25-12-23 17:50 is_ready:False
+2025-12-23 12:50:27 tech_manager: max_rows:40 candle_time: 2025-12-23 17:50:00+00:00 granularity M5
+2025-12-23 12:50:27 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 17:30:00+00:00  0.87346  0.87338  None  None  0.00014   0.0  0.0       0
+36  EUR_GBP 2025-12-23 17:35:00+00:00  0.87354  0.87344  None  None  0.00013   0.0  0.0       0
+37  EUR_GBP 2025-12-23 17:40:00+00:00  0.87362  0.87352  None  None  0.00013   0.0  0.0       0
+38  EUR_GBP 2025-12-23 17:45:00+00:00  0.87368  0.87361  None  None  0.00015   0.0  0.0       0
+39  EUR_GBP 2025-12-23 17:50:00+00:00  0.87363  0.87366  None  None  0.00014   0.0  0.0       0
+2025-12-23 12:50:27 Skipping trade - invalid signal or loss
+2025-12-23 12:55:32 CandleManager() new candle: last_candle:25-12-23 17:55 is_ready:False
+2025-12-23 12:55:32 tech_manager: max_rows:40 candle_time: 2025-12-23 17:55:00+00:00 granularity M5
+2025-12-23 12:55:32 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 17:35:00+00:00  0.87354  0.87344  None  None  0.00013   0.0  0.0       0
+36  EUR_GBP 2025-12-23 17:40:00+00:00  0.87362  0.87352  None  None  0.00013   0.0  0.0       0
+37  EUR_GBP 2025-12-23 17:45:00+00:00  0.87368  0.87361  None  None  0.00015   0.0  0.0       0
+38  EUR_GBP 2025-12-23 17:50:00+00:00  0.87362  0.87366  None  None  0.00014   0.0  0.0       0
+39  EUR_GBP 2025-12-23 17:55:00+00:00  0.87363  0.87366  None  None  0.00014   0.0  0.0       0
+2025-12-23 12:55:32 Skipping trade - invalid signal or loss
+2025-12-23 13:00:07 CandleManager() new candle: last_candle:25-12-23 18:00 is_ready:False
+2025-12-23 13:05:12 CandleManager() new candle: last_candle:25-12-23 18:05 is_ready:False
+2025-12-23 13:05:13 tech_manager: max_rows:40 candle_time: 2025-12-23 18:05:00+00:00 granularity M5
+2025-12-23 13:05:13 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 17:45:00+00:00  0.87368  0.87361  None  None  0.00015   0.0  0.0       0
+36  EUR_GBP 2025-12-23 17:50:00+00:00  0.87362  0.87366  None  None  0.00014   0.0  0.0       0
+37  EUR_GBP 2025-12-23 17:55:00+00:00  0.87366  0.87366  None  None  0.00015   0.0  0.0       0
+38  EUR_GBP 2025-12-23 18:00:00+00:00  0.87374  0.87364  None  None  0.00013   0.0  0.0       0
+39  EUR_GBP 2025-12-23 18:05:00+00:00  0.87370  0.87371  None  None  0.00013   0.0  0.0       0
+2025-12-23 13:05:13 Skipping trade - invalid signal or loss
+2025-12-23 13:10:06 CandleManager() new candle: last_candle:25-12-23 18:10 is_ready:False
+2025-12-23 13:15:02 CandleManager() new candle: last_candle:25-12-23 18:15 is_ready:False
+2025-12-23 13:20:07 CandleManager() new candle: last_candle:25-12-23 18:20 is_ready:False
+2025-12-23 13:25:01 CandleManager() new candle: last_candle:25-12-23 18:25 is_ready:False
+2025-12-23 13:25:02 tech_manager: max_rows:40 candle_time: 2025-12-23 18:25:00+00:00 granularity M5
+2025-12-23 13:25:02 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 18:05:00+00:00  0.87366  0.87371  None  None  0.00013   0.0  0.0       0
+36  EUR_GBP 2025-12-23 18:10:00+00:00  0.87362  0.87366  None  None  0.00015   0.0  0.0       0
+37  EUR_GBP 2025-12-23 18:15:00+00:00  0.87352  0.87362  None  None  0.00012   0.0  0.0       0
+38  EUR_GBP 2025-12-23 18:20:00+00:00  0.87350  0.87352  None  None  0.00013   0.0  0.0       0
+39  EUR_GBP 2025-12-23 18:25:00+00:00  0.87348  0.87349  None  None  0.00014   0.0  0.0       0
+2025-12-23 13:25:02 Skipping trade - invalid signal or loss
+2025-12-23 13:30:06 CandleManager() new candle: last_candle:25-12-23 18:30 is_ready:False
+2025-12-23 13:35:12 CandleManager() new candle: last_candle:25-12-23 18:35 is_ready:False
+2025-12-23 13:40:07 CandleManager() new candle: last_candle:25-12-23 18:40 is_ready:False
+2025-12-23 13:45:35 CandleManager() new candle: last_candle:25-12-23 18:45 is_ready:False
+2025-12-23 13:45:35 tech_manager: max_rows:40 candle_time: 2025-12-23 18:45:00+00:00 granularity M5
+2025-12-23 13:45:35 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 18:25:00+00:00  0.87354  0.87349  None  None  0.00011   0.0  0.0       0
+36  EUR_GBP 2025-12-23 18:30:00+00:00  0.87342  0.87354  None  None  0.00013   0.0  0.0       0
+37  EUR_GBP 2025-12-23 18:35:00+00:00  0.87346  0.87343  None  None  0.00014   0.0  0.0       0
+38  EUR_GBP 2025-12-23 18:40:00+00:00  0.87348  0.87346  None  None  0.00015   0.0  0.0       0
+39  EUR_GBP 2025-12-23 18:45:00+00:00  0.87348  0.87348  None  None  0.00013   0.0  0.0       0
+2025-12-23 13:45:35 Skipping trade - invalid signal or loss
+2025-12-23 13:50:09 CandleManager() new candle: last_candle:25-12-23 18:50 is_ready:False
+2025-12-23 13:55:04 CandleManager() new candle: last_candle:25-12-23 18:55 is_ready:False
+2025-12-23 14:00:10 CandleManager() new candle: last_candle:25-12-23 19:00 is_ready:False
+2025-12-23 14:05:06 CandleManager() new candle: last_candle:25-12-23 19:05 is_ready:False
+2025-12-23 14:10:24 CandleManager() new candle: last_candle:25-12-23 19:10 is_ready:False
+2025-12-23 14:10:24 tech_manager: max_rows:40 candle_time: 2025-12-23 19:10:00+00:00 granularity M5
+2025-12-23 14:10:24 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 18:50:00+00:00  0.87338  0.87348  None  None  0.00014   0.0  0.0       0
+36  EUR_GBP 2025-12-23 18:55:00+00:00  0.87348  0.87337  None  None  0.00013   0.0  0.0       0
+37  EUR_GBP 2025-12-23 19:00:00+00:00  0.87347  0.87350  None  None  0.00012   0.0  0.0       0
+38  EUR_GBP 2025-12-23 19:05:00+00:00  0.87341  0.87344  None  None  0.00014   0.0  0.0       0
+39  EUR_GBP 2025-12-23 19:10:00+00:00  0.87342  0.87343  None  None  0.00012   0.0  0.0       0
+2025-12-23 14:10:24 Skipping trade - invalid signal or loss
+2025-12-23 14:15:09 CandleManager() new candle: last_candle:25-12-23 19:15 is_ready:False
+2025-12-23 14:20:03 CandleManager() new candle: last_candle:25-12-23 19:20 is_ready:False
+2025-12-23 14:25:19 CandleManager() new candle: last_candle:25-12-23 19:25 is_ready:False
+2025-12-23 14:30:14 CandleManager() new candle: last_candle:25-12-23 19:30 is_ready:False
+2025-12-23 14:35:08 CandleManager() new candle: last_candle:25-12-23 19:35 is_ready:False
+2025-12-23 14:40:25 CandleManager() new candle: last_candle:25-12-23 19:40 is_ready:False
+2025-12-23 14:40:25 tech_manager: max_rows:40 candle_time: 2025-12-23 19:40:00+00:00 granularity M5
+2025-12-23 14:40:26 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 19:20:00+00:00  0.87342  0.87343  None  None  0.00015   0.0  0.0       0
+36  EUR_GBP 2025-12-23 19:25:00+00:00  0.87350  0.87346  None  None  0.00011   0.0  0.0       0
+37  EUR_GBP 2025-12-23 19:30:00+00:00  0.87360  0.87352  None  None  0.00015   0.0  0.0       0
+38  EUR_GBP 2025-12-23 19:35:00+00:00  0.87368  0.87360  None  None  0.00013   0.0  0.0       0
+39  EUR_GBP 2025-12-23 19:40:00+00:00  0.87366  0.87366  None  None  0.00014   0.0  0.0       0
+2025-12-23 14:40:26 Skipping trade - invalid signal or loss
+2025-12-23 14:45:10 CandleManager() new candle: last_candle:25-12-23 19:45 is_ready:False
+2025-12-23 14:50:15 CandleManager() new candle: last_candle:25-12-23 19:50 is_ready:False
+2025-12-23 14:50:15 tech_manager: max_rows:40 candle_time: 2025-12-23 19:50:00+00:00 granularity M5
+2025-12-23 14:50:15 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 19:30:00+00:00  0.87360  0.87352  None  None  0.00015   0.0  0.0       0
+36  EUR_GBP 2025-12-23 19:35:00+00:00  0.87368  0.87360  None  None  0.00013   0.0  0.0       0
+37  EUR_GBP 2025-12-23 19:40:00+00:00  0.87360  0.87366  None  None  0.00012   0.0  0.0       0
+38  EUR_GBP 2025-12-23 19:45:00+00:00  0.87357  0.87362  None  None  0.00014   0.0  0.0       0
+39  EUR_GBP 2025-12-23 19:50:00+00:00  0.87356  0.87356  None  None  0.00015   0.0  0.0       0
+2025-12-23 14:50:15 Skipping trade - invalid signal or loss
+2025-12-23 14:55:10 CandleManager() new candle: last_candle:25-12-23 19:55 is_ready:False
+2025-12-23 15:00:04 CandleManager() new candle: last_candle:25-12-23 20:00 is_ready:False
+2025-12-23 15:05:09 CandleManager() new candle: last_candle:25-12-23 20:05 is_ready:False
+2025-12-23 15:10:16 CandleManager() new candle: last_candle:25-12-23 20:10 is_ready:False
+2025-12-23 15:10:17 tech_manager: max_rows:40 candle_time: 2025-12-23 20:10:00+00:00 granularity M5
+2025-12-23 15:10:17 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_GBP 2025-12-23 19:50:00+00:00  0.87363  0.87356  None  None  0.00014   0.0  0.0       0
+36  EUR_GBP 2025-12-23 19:55:00+00:00  0.87353  0.87366  None  None  0.00014   0.0  0.0       0
+37  EUR_GBP 2025-12-23 20:00:00+00:00  0.87346  0.87354  None  None  0.00013   0.0  0.0       0
+38  EUR_GBP 2025-12-23 20:05:00+00:00  0.87348  0.87348  None  None  0.00012   0.0  0.0       0
+39  EUR_GBP 2025-12-23 20:10:00+00:00  0.87348  0.87346  None  None  0.00011   0.0  0.0       0
+2025-12-23 15:10:17 Skipping trade - invalid signal or loss
+2025-12-23 15:15:11 CandleManager() new candle: last_candle:25-12-23 20:15 is_ready:False
+2025-12-23 15:20:07 CandleManager() new candle: last_candle:25-12-23 20:20 is_ready:False
+2025-12-23 15:25:03 CandleManager() new candle: last_candle:25-12-23 20:25 is_ready:False
+2025-12-23 15:30:07 CandleManager() new candle: last_candle:25-12-23 20:30 is_ready:False
+2025-12-23 15:35:02 CandleManager() new candle: last_candle:25-12-23 20:35 is_ready:False
+2025-12-23 15:40:07 CandleManager() new candle: last_candle:25-12-23 20:40 is_ready:False
+2025-12-23 15:45:13 CandleManager() new candle: last_candle:25-12-23 20:45 is_ready:False
+2025-12-23 15:50:09 CandleManager() new candle: last_candle:25-12-23 20:50 is_ready:False
+2025-12-23 15:55:06 CandleManager() new candle: last_candle:25-12-23 20:55 is_ready:False
+2025-12-23 16:00:11 CandleManager() new candle: last_candle:25-12-23 21:00 is_ready:False
+2025-12-23 16:05:06 CandleManager() new candle: last_candle:25-12-23 21:05 is_ready:False
+2025-12-23 16:10:22 CandleManager() new candle: last_candle:25-12-23 21:10 is_ready:False
+2025-12-23 16:15:05 CandleManager() new candle: last_candle:25-12-23 21:15 is_ready:False
+2025-12-23 16:20:10 CandleManager() new candle: last_candle:25-12-23 21:20 is_ready:False
+2025-12-23 16:25:05 CandleManager() new candle: last_candle:25-12-23 21:25 is_ready:False
+2025-12-23 16:30:02 CandleManager() new candle: last_candle:25-12-23 21:30 is_ready:False
+2025-12-23 16:35:07 CandleManager() new candle: last_candle:25-12-23 21:35 is_ready:False
+2025-12-23 16:40:02 CandleManager() new candle: last_candle:25-12-23 21:40 is_ready:False
+2025-12-23 16:45:03 CandleManager() new candle: last_candle:25-12-23 21:45 is_ready:False
+2025-12-23 16:50:07 CandleManager() new candle: last_candle:25-12-23 21:50 is_ready:False
+2025-12-23 16:55:01 CandleManager() new candle: last_candle:25-12-23 21:55 is_ready:False

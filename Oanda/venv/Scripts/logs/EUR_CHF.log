@@ -1,75 +1,242 @@
-2025-12-04 21:55:24 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/EUR_CHF.log
-2025-12-04 21:55:24 {'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0014, 'riskreward': 1.3}
-2025-12-04 21:55:25 CandleManager() init last_candle: last_candle:25-12-05 02:55 is_ready:False
-2025-12-04 21:56:07 CandleManager() new candle: last_candle:25-12-05 02:56 is_ready:False
-2025-12-04 21:56:07 tech_manager: max_rows:32 candle_time: 2025-12-05 02:56:00+00:00 granularity M1
-2025-12-04 21:56:07 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_CHF 2025-12-05 02:52:00+00:00  0.93594  0.93596  0.0  0.0  0.00017  0.000032       0
-28  EUR_CHF 2025-12-05 02:53:00+00:00  0.93593  0.93594  0.0  0.0  0.00016  0.000037       0
-29  EUR_CHF 2025-12-05 02:54:00+00:00  0.93591  0.93594  0.0  0.0  0.00016  0.000052       0
-30  EUR_CHF 2025-12-05 02:55:00+00:00  0.93590  0.93592  0.0  0.0  0.00015  0.000057       0
-31  EUR_CHF 2025-12-05 02:56:00+00:00  0.93590  0.93590  0.0  0.0  0.00016  0.000050       0
-2025-12-04 21:57:21 CandleManager() new candle: last_candle:25-12-05 02:57 is_ready:False
-2025-12-04 21:57:22 tech_manager: max_rows:32 candle_time: 2025-12-05 02:57:00+00:00 granularity M1
-2025-12-04 21:57:22 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_CHF 2025-12-05 02:53:00+00:00  0.93593  0.93594  0.0  0.0  0.00016  0.000037       0
-28  EUR_CHF 2025-12-05 02:54:00+00:00  0.93591  0.93594  0.0  0.0  0.00016  0.000052       0
-29  EUR_CHF 2025-12-05 02:55:00+00:00  0.93590  0.93592  0.0  0.0  0.00015  0.000057       0
-30  EUR_CHF 2025-12-05 02:56:00+00:00  0.93589  0.93590  0.0  0.0  0.00016  0.000058       0
-31  EUR_CHF 2025-12-05 02:57:00+00:00  0.93590  0.93590  0.0  0.0  0.00017  0.000040       0
-2025-12-04 21:58:04 CandleManager() new candle: last_candle:25-12-05 02:58 is_ready:False
-2025-12-04 21:58:04 tech_manager: max_rows:32 candle_time: 2025-12-05 02:58:00+00:00 granularity M1
-2025-12-04 21:58:04 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_CHF 2025-12-05 02:54:00+00:00  0.93591  0.93594  0.0  0.0  0.00016  0.000052       0
-28  EUR_CHF 2025-12-05 02:55:00+00:00  0.93590  0.93592  0.0  0.0  0.00015  0.000057       0
-29  EUR_CHF 2025-12-05 02:56:00+00:00  0.93589  0.93590  0.0  0.0  0.00016  0.000058       0
-30  EUR_CHF 2025-12-05 02:57:00+00:00  0.93594  0.93590  0.0  0.0  0.00015  0.000003       0
-31  EUR_CHF 2025-12-05 02:58:00+00:00  0.93595  0.93595  0.0  0.0  0.00016  0.000010       0
-2025-12-04 21:59:07 CandleManager() new candle: last_candle:25-12-05 02:59 is_ready:False
-2025-12-04 21:59:07 tech_manager: max_rows:32 candle_time: 2025-12-05 02:59:00+00:00 granularity M1
-2025-12-04 21:59:07 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_CHF 2025-12-05 02:55:00+00:00  0.93590  0.93592  0.0  0.0  0.00015  0.000057       0
-28  EUR_CHF 2025-12-05 02:56:00+00:00  0.93589  0.93590  0.0  0.0  0.00016  0.000058       0
-29  EUR_CHF 2025-12-05 02:57:00+00:00  0.93594  0.93590  0.0  0.0  0.00015  0.000003       0
-30  EUR_CHF 2025-12-05 02:58:00+00:00  0.93592  0.93595  0.0  0.0  0.00015  0.000018       0
-31  EUR_CHF 2025-12-05 02:59:00+00:00  0.93592  0.93592  0.0  0.0  0.00015  0.000013       0
-2025-12-04 22:00:10 CandleManager() new candle: last_candle:25-12-05 03:00 is_ready:False
-2025-12-04 22:00:10 tech_manager: max_rows:32 candle_time: 2025-12-05 03:00:00+00:00 granularity M1
-2025-12-04 22:00:10 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_CHF 2025-12-05 02:56:00+00:00  0.93589  0.93590  0.0  0.0  0.00016  0.000058       0
-28  EUR_CHF 2025-12-05 02:57:00+00:00  0.93594  0.93590  0.0  0.0  0.00015  0.000002       0
-29  EUR_CHF 2025-12-05 02:58:00+00:00  0.93592  0.93595  0.0  0.0  0.00015  0.000018       0
-30  EUR_CHF 2025-12-05 02:59:00+00:00  0.93592  0.93592  0.0  0.0  0.00015  0.000014       0
-31  EUR_CHF 2025-12-05 03:00:00+00:00  0.93592  0.93592  0.0  0.0  0.00017  0.000010       0
-2025-12-04 22:01:24 CandleManager() new candle: last_candle:25-12-05 03:01 is_ready:False
-2025-12-04 22:01:24 tech_manager: max_rows:32 candle_time: 2025-12-05 03:01:00+00:00 granularity M1
-2025-12-04 22:01:24 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_CHF 2025-12-05 02:57:00+00:00  0.93594  0.93590  0.0  0.0  0.00015  0.000003       0
-28  EUR_CHF 2025-12-05 02:58:00+00:00  0.93592  0.93595  0.0  0.0  0.00015  0.000018       0
-29  EUR_CHF 2025-12-05 02:59:00+00:00  0.93592  0.93592  0.0  0.0  0.00015  0.000014       0
-30  EUR_CHF 2025-12-05 03:00:00+00:00  0.93596  0.93592  0.0  0.0  0.00015  0.000028       0
-31  EUR_CHF 2025-12-05 03:01:00+00:00  0.93594  0.93595  0.0  0.0  0.00015  0.000007       0
-2025-12-04 22:02:06 CandleManager() new candle: last_candle:25-12-05 03:02 is_ready:False
-2025-12-04 22:02:06 tech_manager: max_rows:32 candle_time: 2025-12-05 03:02:00+00:00 granularity M1
-2025-12-04 22:02:06 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_CHF 2025-12-05 02:58:00+00:00  0.93592  0.93595  0.0  0.0  0.00015  0.000018       0
-28  EUR_CHF 2025-12-05 02:59:00+00:00  0.93592  0.93592  0.0  0.0  0.00015  0.000014       0
-29  EUR_CHF 2025-12-05 03:00:00+00:00  0.93596  0.93592  0.0  0.0  0.00015  0.000028       0
-30  EUR_CHF 2025-12-05 03:01:00+00:00  0.93594  0.93595  0.0  0.0  0.00017  0.000007       0
-31  EUR_CHF 2025-12-05 03:02:00+00:00  0.93594  0.93594  0.0  0.0  0.00018  0.000009       0
-2025-12-04 22:03:10 CandleManager() new candle: last_candle:25-12-05 03:03 is_ready:False
-2025-12-04 22:03:11 tech_manager: max_rows:32 candle_time: 2025-12-05 03:03:00+00:00 granularity M1
-2025-12-04 22:03:11 process_candles:
-       PAIR                      time    mid_c    mid_o   SL   TP   SPREAD      GAIN  SIGNAL
-27  EUR_CHF 2025-12-05 02:59:00+00:00  0.93592  0.93592  0.0  0.0  0.00015  0.000014       0
-28  EUR_CHF 2025-12-05 03:00:00+00:00  0.93596  0.93592  0.0  0.0  0.00015  0.000028       0
-29  EUR_CHF 2025-12-05 03:01:00+00:00  0.93594  0.93595  0.0  0.0  0.00017  0.000007       0
-30  EUR_CHF 2025-12-05 03:02:00+00:00  0.93596  0.93594  0.0  0.0  0.00016  0.000028       0
-31  EUR_CHF 2025-12-05 03:03:00+00:00  0.93596  0.93597  0.0  0.0  0.00013  0.000028       0
+2025-12-23 08:19:33 LogWrapper init() C:\Development\Oanda\venv\Scripts\logs/EUR_CHF.log
+2025-12-23 08:19:33 {'n_ma': 20, 'n_std': 2.0, 'maxspread': 0.00035, 'mingain': 0.00055, 'riskreward': 1.9}
+2025-12-23 08:19:36 CandleManager() init last_candle: last_candle:25-12-23 13:15 is_ready:False
+2025-12-23 08:20:07 CandleManager() new candle: last_candle:25-12-23 13:20 is_ready:False
+2025-12-23 08:25:01 CandleManager() new candle: last_candle:25-12-23 13:25 is_ready:False
+2025-12-23 08:30:05 CandleManager() new candle: last_candle:25-12-23 13:30 is_ready:False
+2025-12-23 08:35:12 CandleManager() new candle: last_candle:25-12-23 13:35 is_ready:False
+2025-12-23 08:40:06 CandleManager() new candle: last_candle:25-12-23 13:40 is_ready:False
+2025-12-23 08:45:10 CandleManager() new candle: last_candle:25-12-23 13:45 is_ready:False
+2025-12-23 08:50:05 CandleManager() new candle: last_candle:25-12-23 13:50 is_ready:False
+2025-12-23 08:55:01 CandleManager() new candle: last_candle:25-12-23 13:55 is_ready:False
+2025-12-23 09:00:05 CandleManager() new candle: last_candle:25-12-23 14:00 is_ready:False
+2025-12-23 09:05:10 CandleManager() new candle: last_candle:25-12-23 14:05 is_ready:False
+2025-12-23 09:10:06 CandleManager() new candle: last_candle:25-12-23 14:10 is_ready:False
+2025-12-23 09:15:10 CandleManager() new candle: last_candle:25-12-23 14:15 is_ready:False
+2025-12-23 09:20:04 CandleManager() new candle: last_candle:25-12-23 14:20 is_ready:False
+2025-12-23 09:25:02 CandleManager() new candle: last_candle:25-12-23 14:25 is_ready:False
+2025-12-23 09:30:08 CandleManager() new candle: last_candle:25-12-23 14:30 is_ready:False
+2025-12-23 09:35:06 CandleManager() new candle: last_candle:25-12-23 14:35 is_ready:False
+2025-12-23 09:40:04 CandleManager() new candle: last_candle:25-12-23 14:40 is_ready:False
+2025-12-23 09:45:09 CandleManager() new candle: last_candle:25-12-23 14:45 is_ready:False
+2025-12-23 09:50:03 CandleManager() new candle: last_candle:25-12-23 14:50 is_ready:False
+2025-12-23 09:55:10 CandleManager() new candle: last_candle:25-12-23 14:55 is_ready:False
+2025-12-23 10:00:06 CandleManager() new candle: last_candle:25-12-23 15:00 is_ready:False
+2025-12-23 10:05:01 CandleManager() new candle: last_candle:25-12-23 15:05 is_ready:False
+2025-12-23 10:10:07 CandleManager() new candle: last_candle:25-12-23 15:10 is_ready:False
+2025-12-23 10:15:11 CandleManager() new candle: last_candle:25-12-23 15:15 is_ready:False
+2025-12-23 10:20:05 CandleManager() new candle: last_candle:25-12-23 15:20 is_ready:False
+2025-12-23 10:25:10 CandleManager() new candle: last_candle:25-12-23 15:25 is_ready:False
+2025-12-23 10:30:06 CandleManager() new candle: last_candle:25-12-23 15:30 is_ready:False
+2025-12-23 10:35:11 CandleManager() new candle: last_candle:25-12-23 15:35 is_ready:False
+2025-12-23 10:40:08 CandleManager() new candle: last_candle:25-12-23 15:40 is_ready:False
+2025-12-23 10:45:13 CandleManager() new candle: last_candle:25-12-23 15:45 is_ready:False
+2025-12-23 10:45:13 tech_manager: max_rows:40 candle_time: 2025-12-23 15:45:00+00:00 granularity M5
+2025-12-23 10:45:13 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 15:25:00+00:00  0.93010  0.93022 NaN NaN  0.00015   0.0   0.0       0
+36  EUR_CHF 2025-12-23 15:30:00+00:00  0.93024  0.93006 NaN NaN  0.00017   0.0   0.0       0
+37  EUR_CHF 2025-12-23 15:35:00+00:00  0.93044  0.93023 NaN NaN  0.00015   0.0   0.0       0
+38  EUR_CHF 2025-12-23 15:40:00+00:00  0.93025  0.93044 NaN NaN  0.00016   0.0   0.0       0
+39  EUR_CHF 2025-12-23 15:45:00+00:00  0.93024  0.93025 NaN NaN  0.00017   0.0   0.0       0
+2025-12-23 10:45:13 Skipping trade - invalid signal or loss
+2025-12-23 10:50:07 CandleManager() new candle: last_candle:25-12-23 15:50 is_ready:False
+2025-12-23 10:55:04 CandleManager() new candle: last_candle:25-12-23 15:55 is_ready:False
+2025-12-23 11:00:02 CandleManager() new candle: last_candle:25-12-23 16:00 is_ready:False
+2025-12-23 11:05:05 CandleManager() new candle: last_candle:25-12-23 16:05 is_ready:False
+2025-12-23 11:10:11 CandleManager() new candle: last_candle:25-12-23 16:10 is_ready:False
+2025-12-23 11:15:05 CandleManager() new candle: last_candle:25-12-23 16:15 is_ready:False
+2025-12-23 11:20:09 CandleManager() new candle: last_candle:25-12-23 16:20 is_ready:False
+2025-12-23 11:25:04 CandleManager() new candle: last_candle:25-12-23 16:25 is_ready:False
+2025-12-23 11:30:09 CandleManager() new candle: last_candle:25-12-23 16:30 is_ready:False
+2025-12-23 11:35:04 CandleManager() new candle: last_candle:25-12-23 16:35 is_ready:False
+2025-12-23 11:40:08 CandleManager() new candle: last_candle:25-12-23 16:40 is_ready:False
+2025-12-23 11:45:12 CandleManager() new candle: last_candle:25-12-23 16:45 is_ready:False
+2025-12-23 11:50:28 CandleManager() new candle: last_candle:25-12-23 16:50 is_ready:False
+2025-12-23 11:50:28 tech_manager: max_rows:40 candle_time: 2025-12-23 16:50:00+00:00 granularity M5
+2025-12-23 11:50:28 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 16:30:00+00:00  0.92971  0.92959 NaN NaN  0.00014   0.0   0.0       0
+36  EUR_CHF 2025-12-23 16:35:00+00:00  0.92969  0.92970 NaN NaN  0.00014   0.0   0.0       0
+37  EUR_CHF 2025-12-23 16:40:00+00:00  0.92975  0.92968 NaN NaN  0.00012   0.0   0.0       0
+38  EUR_CHF 2025-12-23 16:45:00+00:00  0.92999  0.92974 NaN NaN  0.00016   0.0   0.0       0
+39  EUR_CHF 2025-12-23 16:50:00+00:00  0.92997  0.92997 NaN NaN  0.00016   0.0   0.0       0
+2025-12-23 11:50:28 Skipping trade - invalid signal or loss
+2025-12-23 11:55:01 CandleManager() new candle: last_candle:25-12-23 16:55 is_ready:False
+2025-12-23 12:00:08 CandleManager() new candle: last_candle:25-12-23 17:00 is_ready:False
+2025-12-23 12:05:13 CandleManager() new candle: last_candle:25-12-23 17:05 is_ready:False
+2025-12-23 12:10:07 CandleManager() new candle: last_candle:25-12-23 17:10 is_ready:False
+2025-12-23 12:15:02 CandleManager() new candle: last_candle:25-12-23 17:15 is_ready:False
+2025-12-23 12:20:18 CandleManager() new candle: last_candle:25-12-23 17:20 is_ready:False
+2025-12-23 12:25:03 CandleManager() new candle: last_candle:25-12-23 17:25 is_ready:False
+2025-12-23 12:30:08 CandleManager() new candle: last_candle:25-12-23 17:30 is_ready:False
+2025-12-23 12:35:03 CandleManager() new candle: last_candle:25-12-23 17:35 is_ready:False
+2025-12-23 12:40:07 CandleManager() new candle: last_candle:25-12-23 17:40 is_ready:False
+2025-12-23 12:45:12 CandleManager() new candle: last_candle:25-12-23 17:45 is_ready:False
+2025-12-23 12:50:16 CandleManager() new candle: last_candle:25-12-23 17:50 is_ready:False
+2025-12-23 12:50:17 tech_manager: max_rows:40 candle_time: 2025-12-23 17:50:00+00:00 granularity M5
+2025-12-23 12:50:17 process_candles:
+       PAIR                      time    mid_c    mid_o  SL  TP   SPREAD  GAIN  LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 17:30:00+00:00  0.92922  0.92929 NaN NaN  0.00015   0.0   0.0       0
+36  EUR_CHF 2025-12-23 17:35:00+00:00  0.92924  0.92922 NaN NaN  0.00015   0.0   0.0       0
+37  EUR_CHF 2025-12-23 17:40:00+00:00  0.92914  0.92924 NaN NaN  0.00018   0.0   0.0       0
+38  EUR_CHF 2025-12-23 17:45:00+00:00  0.92902  0.92914 NaN NaN  0.00015   0.0   0.0       0
+39  EUR_CHF 2025-12-23 17:50:00+00:00  0.92900  0.92902 NaN NaN  0.00015   0.0   0.0       0
+2025-12-23 12:50:17 Skipping trade - invalid signal or loss
+2025-12-23 12:55:11 CandleManager() new candle: last_candle:25-12-23 17:55 is_ready:False
+2025-12-23 13:00:07 CandleManager() new candle: last_candle:25-12-23 18:00 is_ready:False
+2025-12-23 13:05:02 CandleManager() new candle: last_candle:25-12-23 18:05 is_ready:False
+2025-12-23 13:10:06 CandleManager() new candle: last_candle:25-12-23 18:10 is_ready:False
+2025-12-23 13:15:02 CandleManager() new candle: last_candle:25-12-23 18:15 is_ready:False
+2025-12-23 13:20:07 CandleManager() new candle: last_candle:25-12-23 18:20 is_ready:False
+2025-12-23 13:25:12 CandleManager() new candle: last_candle:25-12-23 18:25 is_ready:False
+2025-12-23 13:30:06 CandleManager() new candle: last_candle:25-12-23 18:30 is_ready:False
+2025-12-23 13:35:11 CandleManager() new candle: last_candle:25-12-23 18:35 is_ready:False
+2025-12-23 13:40:07 CandleManager() new candle: last_candle:25-12-23 18:40 is_ready:False
+2025-12-23 13:45:13 CandleManager() new candle: last_candle:25-12-23 18:45 is_ready:False
+2025-12-23 13:45:14 tech_manager: max_rows:40 candle_time: 2025-12-23 18:45:00+00:00 granularity M5
+2025-12-23 13:45:14 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 18:25:00+00:00  0.92900  0.92896  None  None  0.00015   0.0  0.0       0
+36  EUR_CHF 2025-12-23 18:30:00+00:00  0.92910  0.92898  None  None  0.00016   0.0  0.0       0
+37  EUR_CHF 2025-12-23 18:35:00+00:00  0.92912  0.92908  None  None  0.00015   0.0  0.0       0
+38  EUR_CHF 2025-12-23 18:40:00+00:00  0.92911  0.92914  None  None  0.00014   0.0  0.0       0
+39  EUR_CHF 2025-12-23 18:45:00+00:00  0.92911  0.92911  None  None  0.00016   0.0  0.0       0
+2025-12-23 13:45:14 Skipping trade - invalid signal or loss
+2025-12-23 13:50:09 CandleManager() new candle: last_candle:25-12-23 18:50 is_ready:False
+2025-12-23 13:55:15 CandleManager() new candle: last_candle:25-12-23 18:55 is_ready:False
+2025-12-23 14:00:10 CandleManager() new candle: last_candle:25-12-23 19:00 is_ready:False
+2025-12-23 14:05:06 CandleManager() new candle: last_candle:25-12-23 19:05 is_ready:False
+2025-12-23 14:10:13 CandleManager() new candle: last_candle:25-12-23 19:10 is_ready:False
+2025-12-23 14:15:09 CandleManager() new candle: last_candle:25-12-23 19:15 is_ready:False
+2025-12-23 14:20:14 CandleManager() new candle: last_candle:25-12-23 19:20 is_ready:False
+2025-12-23 14:20:14 tech_manager: max_rows:40 candle_time: 2025-12-23 19:20:00+00:00 granularity M5
+2025-12-23 14:20:14 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 19:00:00+00:00  0.92920  0.92910  None  None  0.00017   0.0  0.0       0
+36  EUR_CHF 2025-12-23 19:05:00+00:00  0.92909  0.92920  None  None  0.00016   0.0  0.0       0
+37  EUR_CHF 2025-12-23 19:10:00+00:00  0.92911  0.92906  None  None  0.00016   0.0  0.0       0
+38  EUR_CHF 2025-12-23 19:15:00+00:00  0.92901  0.92912  None  None  0.00014   0.0  0.0       0
+39  EUR_CHF 2025-12-23 19:20:00+00:00  0.92900  0.92900  None  None  0.00016   0.0  0.0       0
+2025-12-23 14:20:14 Skipping trade - invalid signal or loss
+2025-12-23 14:25:19 CandleManager() new candle: last_candle:25-12-23 19:25 is_ready:False
+2025-12-23 14:25:19 tech_manager: max_rows:40 candle_time: 2025-12-23 19:25:00+00:00 granularity M5
+2025-12-23 14:25:19 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 19:05:00+00:00  0.92909  0.92920  None  None  0.00016   0.0  0.0       0
+36  EUR_CHF 2025-12-23 19:10:00+00:00  0.92911  0.92906  None  None  0.00016   0.0  0.0       0
+37  EUR_CHF 2025-12-23 19:15:00+00:00  0.92901  0.92912  None  None  0.00014   0.0  0.0       0
+38  EUR_CHF 2025-12-23 19:20:00+00:00  0.92897  0.92900  None  None  0.00016   0.0  0.0       0
+39  EUR_CHF 2025-12-23 19:25:00+00:00  0.92894  0.92895  None  None  0.00016   0.0  0.0       0
+2025-12-23 14:25:19 Skipping trade - invalid signal or loss
+2025-12-23 14:30:03 CandleManager() new candle: last_candle:25-12-23 19:30 is_ready:False
+2025-12-23 14:35:08 CandleManager() new candle: last_candle:25-12-23 19:35 is_ready:False
+2025-12-23 14:35:08 tech_manager: max_rows:40 candle_time: 2025-12-23 19:35:00+00:00 granularity M5
+2025-12-23 14:35:08 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 19:15:00+00:00  0.92901  0.92912  None  None  0.00014   0.0  0.0       0
+36  EUR_CHF 2025-12-23 19:20:00+00:00  0.92897  0.92900  None  None  0.00016   0.0  0.0       0
+37  EUR_CHF 2025-12-23 19:25:00+00:00  0.92888  0.92895  None  None  0.00016   0.0  0.0       0
+38  EUR_CHF 2025-12-23 19:30:00+00:00  0.92890  0.92890  None  None  0.00015   0.0  0.0       0
+39  EUR_CHF 2025-12-23 19:35:00+00:00  0.92890  0.92890  None  None  0.00017   0.0  0.0       0
+2025-12-23 14:35:08 Skipping trade - invalid signal or loss
+2025-12-23 14:40:04 CandleManager() new candle: last_candle:25-12-23 19:40 is_ready:False
+2025-12-23 14:45:42 CandleManager() new candle: last_candle:25-12-23 19:45 is_ready:False
+2025-12-23 14:45:42 tech_manager: max_rows:40 candle_time: 2025-12-23 19:45:00+00:00 granularity M5
+2025-12-23 14:45:42 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 19:25:00+00:00  0.92888  0.92895  None  None  0.00016   0.0  0.0       0
+36  EUR_CHF 2025-12-23 19:30:00+00:00  0.92890  0.92890  None  None  0.00015   0.0  0.0       0
+37  EUR_CHF 2025-12-23 19:35:00+00:00  0.92888  0.92890  None  None  0.00016   0.0  0.0       0
+38  EUR_CHF 2025-12-23 19:40:00+00:00  0.92886  0.92888  None  None  0.00017   0.0  0.0       0
+39  EUR_CHF 2025-12-23 19:45:00+00:00  0.92890  0.92888  None  None  0.00015   0.0  0.0       0
+2025-12-23 14:45:42 Skipping trade - invalid signal or loss
+2025-12-23 14:50:26 CandleManager() new candle: last_candle:25-12-23 19:50 is_ready:False
+2025-12-23 14:50:26 tech_manager: max_rows:40 candle_time: 2025-12-23 19:50:00+00:00 granularity M5
+2025-12-23 14:50:26 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 19:30:00+00:00  0.92890  0.92890  None  None  0.00015   0.0  0.0       0
+36  EUR_CHF 2025-12-23 19:35:00+00:00  0.92888  0.92890  None  None  0.00016   0.0  0.0       0
+37  EUR_CHF 2025-12-23 19:40:00+00:00  0.92886  0.92888  None  None  0.00017   0.0  0.0       0
+38  EUR_CHF 2025-12-23 19:45:00+00:00  0.92887  0.92888  None  None  0.00014   0.0  0.0       0
+39  EUR_CHF 2025-12-23 19:50:00+00:00  0.92887  0.92888  None  None  0.00016   0.0  0.0       0
+2025-12-23 14:50:26 Skipping trade - invalid signal or loss
+2025-12-23 14:55:10 CandleManager() new candle: last_candle:25-12-23 19:55 is_ready:False
+2025-12-23 15:00:04 CandleManager() new candle: last_candle:25-12-23 20:00 is_ready:False
+2025-12-23 15:05:09 CandleManager() new candle: last_candle:25-12-23 20:05 is_ready:False
+2025-12-23 15:10:06 CandleManager() new candle: last_candle:25-12-23 20:10 is_ready:False
+2025-12-23 15:15:11 CandleManager() new candle: last_candle:25-12-23 20:15 is_ready:False
+2025-12-23 15:20:07 CandleManager() new candle: last_candle:25-12-23 20:20 is_ready:False
+2025-12-23 15:25:03 CandleManager() new candle: last_candle:25-12-23 20:25 is_ready:False
+2025-12-23 15:30:06 CandleManager() new candle: last_candle:25-12-23 20:30 is_ready:False
+2025-12-23 15:35:44 CandleManager() new candle: last_candle:25-12-23 20:35 is_ready:False
+2025-12-23 15:35:44 tech_manager: max_rows:40 candle_time: 2025-12-23 20:35:00+00:00 granularity M5
+2025-12-23 15:35:44 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 20:15:00+00:00  0.92908  0.92896  None  None  0.00018   0.0  0.0       0
+36  EUR_CHF 2025-12-23 20:20:00+00:00  0.92908  0.92908  None  None  0.00016   0.0  0.0       0
+37  EUR_CHF 2025-12-23 20:25:00+00:00  0.92909  0.92908  None  None  0.00016   0.0  0.0       0
+38  EUR_CHF 2025-12-23 20:30:00+00:00  0.92912  0.92912  None  None  0.00015   0.0  0.0       0
+39  EUR_CHF 2025-12-23 20:35:00+00:00  0.92912  0.92912  None  None  0.00015   0.0  0.0       0
+2025-12-23 15:35:44 Skipping trade - invalid signal or loss
+2025-12-23 15:40:07 CandleManager() new candle: last_candle:25-12-23 20:40 is_ready:False
+2025-12-23 15:45:13 CandleManager() new candle: last_candle:25-12-23 20:45 is_ready:False
+2025-12-23 15:45:13 tech_manager: max_rows:40 candle_time: 2025-12-23 20:45:00+00:00 granularity M5
+2025-12-23 15:45:14 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 20:25:00+00:00  0.92909  0.92908  None  None  0.00016   0.0  0.0       0
+36  EUR_CHF 2025-12-23 20:30:00+00:00  0.92912  0.92912  None  None  0.00015   0.0  0.0       0
+37  EUR_CHF 2025-12-23 20:35:00+00:00  0.92914  0.92912  None  None  0.00015   0.0  0.0       0
+38  EUR_CHF 2025-12-23 20:40:00+00:00  0.92899  0.92914  None  None  0.00016   0.0  0.0       0
+39  EUR_CHF 2025-12-23 20:45:00+00:00  0.92899  0.92899  None  None  0.00014   0.0  0.0       0
+2025-12-23 15:45:14 Skipping trade - invalid signal or loss
+2025-12-23 15:50:09 CandleManager() new candle: last_candle:25-12-23 20:50 is_ready:False
+2025-12-23 15:55:05 CandleManager() new candle: last_candle:25-12-23 20:55 is_ready:False
+2025-12-23 16:00:11 CandleManager() new candle: last_candle:25-12-23 21:00 is_ready:False
+2025-12-23 16:05:27 CandleManager() new candle: last_candle:25-12-23 21:05 is_ready:False
+2025-12-23 16:05:27 tech_manager: max_rows:40 candle_time: 2025-12-23 21:05:00+00:00 granularity M5
+2025-12-23 16:05:27 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 20:45:00+00:00  0.92898  0.92899  None  None  0.00017   0.0  0.0       0
+36  EUR_CHF 2025-12-23 20:50:00+00:00  0.92900  0.92898  None  None  0.00015   0.0  0.0       0
+37  EUR_CHF 2025-12-23 20:55:00+00:00  0.92900  0.92900  None  None  0.00017   0.0  0.0       0
+38  EUR_CHF 2025-12-23 21:00:00+00:00  0.92901  0.92899  None  None  0.00014   0.0  0.0       0
+39  EUR_CHF 2025-12-23 21:05:00+00:00  0.92902  0.92901  None  None  0.00013   0.0  0.0       0
+2025-12-23 16:05:27 Skipping trade - invalid signal or loss
+2025-12-23 16:10:11 CandleManager() new candle: last_candle:25-12-23 21:10 is_ready:False
+2025-12-23 16:16:40 CandleManager() new candle: last_candle:25-12-23 21:15 is_ready:False
+2025-12-23 16:16:41 tech_manager: max_rows:40 candle_time: 2025-12-23 21:15:00+00:00 granularity M5
+2025-12-23 16:16:41 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 20:55:00+00:00  0.92900  0.92900  None  None  0.00017   0.0  0.0       0
+36  EUR_CHF 2025-12-23 21:00:00+00:00  0.92901  0.92899  None  None  0.00014   0.0  0.0       0
+37  EUR_CHF 2025-12-23 21:05:00+00:00  0.92900  0.92901  None  None  0.00016   0.0  0.0       0
+38  EUR_CHF 2025-12-23 21:10:00+00:00  0.92899  0.92900  None  None  0.00016   0.0  0.0       0
+39  EUR_CHF 2025-12-23 21:15:00+00:00  0.92898  0.92898  None  None  0.00017   0.0  0.0       0
+2025-12-23 16:16:41 Skipping trade - invalid signal or loss
+2025-12-23 16:20:10 CandleManager() new candle: last_candle:25-12-23 21:20 is_ready:False
+2025-12-23 16:25:05 CandleManager() new candle: last_candle:25-12-23 21:25 is_ready:False
+2025-12-23 16:30:02 CandleManager() new candle: last_candle:25-12-23 21:30 is_ready:False
+2025-12-23 16:35:18 CandleManager() new candle: last_candle:25-12-23 21:35 is_ready:False
+2025-12-23 16:35:18 tech_manager: max_rows:40 candle_time: 2025-12-23 21:35:00+00:00 granularity M5
+2025-12-23 16:35:18 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 21:15:00+00:00  0.92893  0.92898  None  None  0.00016   0.0  0.0       0
+36  EUR_CHF 2025-12-23 21:20:00+00:00  0.92896  0.92890  None  None  0.00017   0.0  0.0       0
+37  EUR_CHF 2025-12-23 21:25:00+00:00  0.92898  0.92896  None  None  0.00014   0.0  0.0       0
+38  EUR_CHF 2025-12-23 21:30:00+00:00  0.92902  0.92898  None  None  0.00015   0.0  0.0       0
+39  EUR_CHF 2025-12-23 21:35:00+00:00  0.92900  0.92900  None  None  0.00017   0.0  0.0       0
+2025-12-23 16:35:18 Skipping trade - invalid signal or loss
+2025-12-23 16:40:02 CandleManager() new candle: last_candle:25-12-23 21:40 is_ready:False
+2025-12-23 16:45:03 CandleManager() new candle: last_candle:25-12-23 21:45 is_ready:False
+2025-12-23 16:45:03 tech_manager: max_rows:40 candle_time: 2025-12-23 21:45:00+00:00 granularity M5
+2025-12-23 16:45:03 process_candles:
+       PAIR                      time    mid_c    mid_o    SL    TP   SPREAD  GAIN LOSS  SIGNAL
+35  EUR_CHF 2025-12-23 21:25:00+00:00  0.92898  0.92896  None  None  0.00014   0.0  0.0       0
+36  EUR_CHF 2025-12-23 21:30:00+00:00  0.92902  0.92898  None  None  0.00015   0.0  0.0       0
+37  EUR_CHF 2025-12-23 21:35:00+00:00  0.92901  0.92900  None  None  0.00014   0.0  0.0       0
+38  EUR_CHF 2025-12-23 21:40:00+00:00  0.92900  0.92901  None  None  0.00015   0.0  0.0       0
+39  EUR_CHF 2025-12-23 21:45:00+00:00  0.92900  0.92900  None  None  0.00015   0.0  0.0       0
+2025-12-23 16:45:03 Skipping trade - invalid signal or loss
+2025-12-23 16:50:07 CandleManager() new candle: last_candle:25-12-23 21:50 is_ready:False
+2025-12-23 16:55:01 CandleManager() new candle: last_candle:25-12-23 21:55 is_ready:False
