@@ -1,7 +1,10 @@
 import json
 import threading
 import time
+from queue import Queue
 from stream_example.stream_prices import PriceStreamer
+from stream_example.stream_processor import PriceProcessor
+from stream_example.stream_worker import WorkProcessor
 
 def load_settings():
     with open(r"C:\Development\Oanda\venv\Scripts\bot\settings.json", "r") as f:
@@ -14,6 +17,7 @@ def run_streamer():
     shared_prices = {}
     shared_prices_events = {}
     shared_prices_lock = threading.Lock()
+    work_queue = Queue()
 
     for p in settings['pairs'].keys():
         shared_prices_events[p] = threading.Event()
@@ -26,8 +30,20 @@ def run_streamer():
     threads.append(price_stream_t)
     price_stream_t.start()
 
+    worker_t = WorkProcessor(work_queue)
+    worker_t.daemon = True # This will make the thread stop when the main program exits
+    threads.append(worker_t)
+    worker_t.start()
+
     #for t in threads:
     #    t.join()
+
+    for p in settings['pairs'].keys():
+        processing_t = PriceProcessor(shared_prices, shared_prices_lock, shared_prices_events,
+                                   f"PriceProcessor_{p}", p, work_queue)
+        processing_t.daemon = True
+        threads.append(processing_t)
+        processing_t.start()
 
     try:
         while True:
